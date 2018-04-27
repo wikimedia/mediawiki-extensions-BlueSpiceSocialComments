@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth <wirth@hallowelt.com>"
+		]
+	},
+	"bs-socialcomments-desc": "BSSocial",
+	"bs-socialcomments-type": "Kommentar",
+	"bs-socialcomments-commenttext": "{{plural:$1|Kommentar|Kommentare}}($1)",
+	"bs-social-entitycomment-header-create": "Neuer Kommentar",
+	"bs-socialcomments-var-commentcount": "Anzahl Kommentare"
+}

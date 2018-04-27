@@ -1,0 +1,64 @@
+{
+	"name": "BlueSpiceSocialComments",
+	"version": "3.0.0-alpha",
+	"url": "https://help.bluespice.com/index.php/BlueSpiceSocial",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialcomments-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialComments": {
+					"className": "\\BlueSpice\\Social\\Comments\\Extension",
+					"extPath": "/BlueSpiceSocialComments",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"EntityRegistry": {
+				"comment": "\\BlueSpice\\Social\\Comments\\EntityConfig\\Comment"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialComments": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Comments\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.comments.styles": {
+			"targets": [ "desktop", "mobile" ],
+			"styles": "bluespice.social.comments.css"
+		},
+		"ext.bluespice.social.entity.comment": {
+			"dependencies": [
+				"ext.bluespice.social.entity",
+				"ext.bluespice.social.entity.text"
+			],
+			"targets": [ "desktop", "mobile" ],
+			"scripts": [
+				"bluespice.social.comments.js",
+				"entities/bluespice.social.Entity.Comment.js"
+			],
+			"messages": [
+				"bs-socialcomments-var-commentcount"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialComments/resources"
+	},
+	"Hooks": {
+		"BSSocialEntityOutputRenderAfterContent": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityOutputRenderAfterContent\\AddCommentSection::callback",
+		"BSSocialEntityOutputRenderBeforeChildren": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityOutputRenderBeforeChildren\\AddEmptyComment::callback",
+		"BSSocialAllowedSorterValues": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialAllowedSorterValues\\AddCommentCount::callback",
+		"BSEntityGetFullData": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityGetFullData\\AddCommentsCount::callback",
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityConfigAttributeDefinitions\\AddCommentCount::callback"
+	},
+	"manifest_version": 2
+}
