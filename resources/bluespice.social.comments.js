@@ -11,16 +11,10 @@ $( document ).bind( 'BSSocialEntityInit', function( event, Entity, $el, type, da
 	if( !Entity.getConfig().CanHaveChildren ) {
 		return;
 	}
-	var $anchor = $el
-		.children('.bs-social-entity-aftercontent')
-		.find('.bs-social-entityaftercontent-comment')
-	;
+	var $anchor = Entity.getContainer( Entity.AFTER_CONTENT_CONTAINER )
+			.find('.bs-social-entityaftercontent-comment');
+
 	$anchor.on( 'click', function() {
-		$(this)
-			.parents('.bs-social-entity')
-			.first()
-			.children('.bs-social-entitylist-children')
-			.toggle()
-		;
+		Entity.getContainer( Entity.CHILDREN_CONTAINER ).toggle();
 	});
 });
