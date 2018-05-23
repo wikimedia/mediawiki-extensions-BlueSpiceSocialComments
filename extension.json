@@ -17,12 +17,15 @@
 			},
 			"EntityRegistry": {
 				"comment": "\\BlueSpice\\Social\\Comments\\EntityConfig\\Comment"
-			}
+			},
+			"NotificationRegistrationFunctions": [
+				"\\BlueSpice\\Social\\Comments\\Notification\\Registrator::registerNotifications"
+			]
 		}
 	},
 	"MessagesDirs": {
 		"BlueSpiceSocialComments": [
-			"i18n"
+			"i18n", "i18n/notifications"
 		]
 	},
 	"AutoloadNamespaces": {

@@ -69,4 +69,12 @@ class Comment extends Text {
 	protected function get_IsTagable() {
 		return false;
 	}
+
+	protected function get_NotificationObjectClass() {
+		return \BlueSpice\Social\Comments\Notification\SocialCommentsNotification::class;
+	}
+
+	protected function get_NotificationTypePrefix() {
+		return 'bs-social-comment';
+	}
 }

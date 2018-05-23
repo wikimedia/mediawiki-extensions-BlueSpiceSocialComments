@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku"
+		]
+	},
+	"echo-category-title-bs-social-comment-cat": "Comments on watched entities",
+	"bs-social-notifications-comment-create": "User {{GENDER:$1|$2 made}} a new comment",
+	"bs-social-notifications-email-comment-create-subject": "User {{GENDER:$1|$2 made}} a new comment",
+	"bs-social-notifications-email-comment-create-body": "User {{GENDER:$1|$2 commented}} on a post by $3 with following text:\n$4",
+	"bs-social-notifications-web-comment-create-body": "User {{GENDER:$1|$2 commented}} on a post by $3",
+	"bs-social-notifications-comment-edit": "User {{GENDER:$1|$2 edited}} a comment",
+	"bs-social-notifications-email-comment-edit-subject": "User {{GENDER:$1|$2 edited}} a comment",
+	"bs-social-notifications-email-comment-edit-body": "User {{GENDER:$1|$2 edited}} a comment on a post by $3. New comment is:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "User {{GENDER:$1|$2 edited}} a comment on a post by $3",
+	"bs-social-notifications-comment-delete": "User {{GENDER:$1|$2 deleted}} a comment",
+	"bs-social-notifications-email-comment-delete-subject": "User {{GENDER:$1|$2 deleted}} a comment",
+	"bs-social-notifications-email-comment-delete-body": "User {{GENDER:$1|$2 deleted}} a comment on post by $3",
+	"bs-social-notifications-web-comment-delete-body": "User {{GENDER:$1|$2 deleted}} a comment on post by $3",
+	"bs-social-notification-comment-primary-link-label": "View comment",
+	"bs-social-notification-comment-parentowner-label": "Post creator: $1",
+	"bs-social-notification-comment-parententity-label": "View post"
+}

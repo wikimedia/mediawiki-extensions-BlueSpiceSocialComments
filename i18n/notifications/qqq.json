@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku"
+		]
+	},
+	"echo-category-title-bs-social-comment-cat": "Checkbox label for mail and wiki notification subscription for comments on entities user watches",
+	"bs-social-notifications-comment-create": "Short message when new comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-create-subject": "Email subject when new comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-create-body": "Email body message when new comment is created. $1 - username, $2 - user realname, $3 - original post owner realname, $4 - Text of the comment",
+	"bs-social-notifications-web-comment-create-body": "Web message when comment is created. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-comment-edit": "Short message when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-edit-subject": "Email subject when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-edit-body": "Email body message when comment is edited. $1 - username, $2 - user realname, $3 - original post owner realname, $4 - Text of the comment",
+	"bs-social-notifications-web-comment-edit-body": "Web message when comment is edited. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-comment-delete": "Short message when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-delete-subject": "Email subject when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-delete-body": "Email body message when comment is deleted. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-web-comment-delete-body": "Web message when comment is deleted. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notification-comment-primary-link-label": "Label for primary link button. It leads to the comment page",
+	"bs-social-notification-comment-parentowner-label": "Label for secondary link, leads to userpage of post owner. $1 - Post owner realname",
+	"bs-social-notification-comment-parententity-label": "Label for secondary link, leads to the post page where comment is added"
+}
