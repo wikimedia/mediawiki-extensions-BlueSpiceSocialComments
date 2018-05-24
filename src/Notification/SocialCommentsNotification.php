@@ -63,6 +63,11 @@ class SocialCommentsNotification extends SocialTextNotification {
 					//Do not notifier performer
 					continue;
 				}
+
+				if( $title->userCan( 'read', $user ) == false ) {
+					continue;
+				}
+
 				$users[$user->getId()] = $user;
 			}
 		}
