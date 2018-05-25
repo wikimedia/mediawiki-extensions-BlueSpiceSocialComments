@@ -57,6 +57,15 @@ class Registrator {
 				'email-subject-message' => 'bs-social-notifications-email-comment-edit-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-edit-body',
 				'web-body-message' => 'bs-social-notifications-web-comment-edit-body',
+				'extra-params' => [
+					'bundle' => [
+						'web' => true,
+						'email' => true,
+						'expandable' => true,
+						'bundle-message' => 'bs-social-notifications-comment-edit-bundle',
+						'bundle-params' => ['agent', 'realname']
+					]
+				]
 			] )
 		);
 
@@ -79,9 +88,15 @@ class Registrator {
 			$echoNotifier,
 			array_merge( $config, [
 				'summary-message' => 'bs-social-notifications-comment-owner-create',
-				'email-subject-message' => 'bs-social-notifications-email-comment-create-owner-subject',
+				'email-subject-message' => 'bs-social-notifications-email-comment-owner-create-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-owner-create-body',
+				'email-body-params' => [
+					'agent', 'realname', 'entitytext'
+				],
 				'web-body-message' => 'bs-social-notifications-web-comment-owner-create-body',
+				'web-body-params' => [
+					'agent', 'realname', 'entitytext'
+				]
 			] )
 		);
 
@@ -92,7 +107,22 @@ class Registrator {
 				'summary-message' => 'bs-social-notifications-comment-owner-edit',
 				'email-subject-message' => 'bs-social-notifications-email-comment-owner-edit-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-owner-edit-body',
+				'email-body-params' => [
+					'agent', 'realname', 'entitytext'
+				],
 				'web-body-message' => 'bs-social-notifications-web-comment-owner-edit-body',
+				'web-body-params' => [
+					'agent', 'realname', 'entitytext'
+				],
+				'extra-params' => [
+					'bundle' => [
+						'web' => true,
+						'email' => true,
+						'expandable' => true,
+						'bundle-message' => 'bs-social-notifications-comment-owner-edit-bundle',
+						'bundle-params' => ['agent', 'realname']
+					]
+				]
 			] )
 		);
 
@@ -101,12 +131,12 @@ class Registrator {
 			$echoNotifier,
 			array_merge( $config, [
 				'summary-message' => 'bs-social-notifications-comment-owner-delete',
-				'email-subject-message' => 'bs-social-notifications-email-comment-delete-owner-subject',
+				'email-subject-message' => 'bs-social-notifications-email-comment-owner-delete-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-owner-delete-body',
 				'email-body-params' => [
-					'agent', 'realname', 'parentownerrealname'
+					'agent', 'realname'
 				],
-				'web-body-message' => 'bs-social-notifications-web-comment-delete-owner-body',
+				'web-body-message' => 'bs-social-notifications-web-comment-owner-delete-body',
 			] )
 		);
 	}
