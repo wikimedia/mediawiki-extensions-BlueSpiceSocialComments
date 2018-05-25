@@ -71,7 +71,10 @@ class Comment extends Text {
 	}
 
 	protected function get_NotificationObjectClass() {
-		return \BlueSpice\Social\Comments\Notification\SocialCommentsNotification::class;
+		return [
+			\BlueSpice\Social\Comments\Notification\SocialCommentsNotification::class,
+			\BlueSpice\Social\Comments\Notification\SocialCommentsOwnerNotification::class
+		];
 	}
 
 	protected function get_NotificationTypePrefix() {

@@ -32,47 +32,18 @@ class SocialCommentsNotification extends SocialTextNotification {
 		return $params;
 	}
 
-	protected function getUsersWatching() {
-		$users = [];
-
-		if( $this->entity->hasParent() == false ) {
-			return $users;
-		}
-
+	protected function getWatchedTitle() {
 		$parent = $this->entity->getParent();
-		$title = $parent->getTitle();
-		if( !$title instanceof \Title || !$title->exists() ) {
-			return $users;
+		return $parent->getTitle();
+	}
+
+	protected function getUserIdsToSkip() {
+		$usersToSkip = parent::getUserIdsToSkip();
+		if( $this->parentEntityOwner instanceof \User ) {
+			$usersToSkip[] = $this->parentEntityOwner->getId();
 		}
 
-		//Is there a better way to retrieve users watching the title
-		$res = wfGetDB( DB_SLAVE )->select(
-			'watchlist',
-			'wl_user',
-			[
-				'wl_namespace' => $title->getNamespace(),
-				'wl_title' => $title->getText()
-			],
-			__METHOD__
-		);
-
-		foreach( $res as $row ) {
-			$user = \User::newFromId( $row->wl_user );
-			if( $user instanceof \User ) {
-				if( $user->getId() == $this->user->getId() ) {
-					//Do not notifier performer
-					continue;
-				}
-
-				if( $title->userCan( 'read', $user ) == false ) {
-					continue;
-				}
-
-				$users[$user->getId()] = $user;
-			}
-		}
-
-		return $users;
+		return $usersToSkip;
 	}
 
 	protected function getParentEntityInfo() {
@@ -86,7 +57,7 @@ class SocialCommentsNotification extends SocialTextNotification {
 
 		if( $this->parentEntityOwner instanceof \User ) {
 			$this->parentEntityOwnerRealname = \BlueSpice\Services::getInstance()->getBSUtilityFactory()
-				->getUserHelper( $parentOwner )->getDisplayName();
+				->getUserHelper( $this->parentEntityOwner )->getDisplayName();
 		}
 	}
 }

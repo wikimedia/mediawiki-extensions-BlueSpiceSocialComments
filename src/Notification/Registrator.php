@@ -73,5 +73,41 @@ class Registrator {
 				'web-body-message' => 'bs-social-notifications-web-comment-delete-body',
 			] )
 		);
+
+		$notificationsManager->registerNotification(
+			'bs-social-comment-owner-create',
+			$echoNotifier,
+			array_merge( $config, [
+				'summary-message' => 'bs-social-notifications-comment-owner-create',
+				'email-subject-message' => 'bs-social-notifications-email-comment-create-owner-subject',
+				'email-body-message' => 'bs-social-notifications-email-comment-owner-create-body',
+				'web-body-message' => 'bs-social-notifications-web-comment-owner-create-body',
+			] )
+		);
+
+		$notificationsManager->registerNotification(
+			'bs-social-comment-owner-edit',
+			$echoNotifier,
+			array_merge( $config, [
+				'summary-message' => 'bs-social-notifications-comment-owner-edit',
+				'email-subject-message' => 'bs-social-notifications-email-comment-owner-edit-subject',
+				'email-body-message' => 'bs-social-notifications-email-comment-owner-edit-body',
+				'web-body-message' => 'bs-social-notifications-web-comment-owner-edit-body',
+			] )
+		);
+
+		$notificationsManager->registerNotification(
+			'bs-social-comment-owner-delete',
+			$echoNotifier,
+			array_merge( $config, [
+				'summary-message' => 'bs-social-notifications-comment-owner-delete',
+				'email-subject-message' => 'bs-social-notifications-email-comment-delete-owner-subject',
+				'email-body-message' => 'bs-social-notifications-email-comment-owner-delete-body',
+				'email-body-params' => [
+					'agent', 'realname', 'parentownerrealname'
+				],
+				'web-body-message' => 'bs-social-notifications-web-comment-delete-owner-body',
+			] )
+		);
 	}
 }
