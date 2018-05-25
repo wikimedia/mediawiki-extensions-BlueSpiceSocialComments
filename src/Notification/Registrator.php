@@ -78,6 +78,7 @@ class Registrator {
 			'bs-social-comment-owner-create',
 			$echoNotifier,
 			array_merge( $config, [
+				'section' => 'message',
 				'summary-message' => 'bs-social-notifications-comment-owner-create',
 				'email-subject-message' => 'bs-social-notifications-email-comment-owner-create-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-owner-create-body',
@@ -95,6 +96,7 @@ class Registrator {
 			'bs-social-comment-owner-edit',
 			$echoNotifier,
 			array_merge( $config, [
+				'section' => 'message',
 				'summary-message' => 'bs-social-notifications-comment-owner-edit',
 				'email-subject-message' => 'bs-social-notifications-email-comment-owner-edit-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-owner-edit-body',
@@ -121,6 +123,7 @@ class Registrator {
 			'bs-social-comment-owner-delete',
 			$echoNotifier,
 			array_merge( $config, [
+				'section' => 'message',
 				'summary-message' => 'bs-social-notifications-comment-owner-delete',
 				'email-subject-message' => 'bs-social-notifications-email-comment-owner-delete-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-owner-delete-body',
