@@ -56,16 +56,7 @@ class Registrator {
 				'summary-message' => 'bs-social-notifications-comment-edit',
 				'email-subject-message' => 'bs-social-notifications-email-comment-edit-subject',
 				'email-body-message' => 'bs-social-notifications-email-comment-edit-body',
-				'web-body-message' => 'bs-social-notifications-web-comment-edit-body',
-				'extra-params' => [
-					'bundle' => [
-						'web' => true,
-						'email' => true,
-						'expandable' => true,
-						'bundle-message' => 'bs-social-notifications-comment-edit-bundle',
-						'bundle-params' => ['agent', 'realname']
-					]
-				]
+				'web-body-message' => 'bs-social-notifications-web-comment-edit-body'
 			] )
 		);
 
@@ -120,7 +111,7 @@ class Registrator {
 						'email' => true,
 						'expandable' => true,
 						'bundle-message' => 'bs-social-notifications-comment-owner-edit-bundle',
-						'bundle-params' => ['agent', 'realname']
+						'bundle-params' => []
 					]
 				]
 			] )

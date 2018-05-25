@@ -17,7 +17,6 @@
 	"bs-social-notifications-email-comment-delete-subject": "Email subject when comment is deleted. $1 - username, $2 - user realname",
 	"bs-social-notifications-email-comment-delete-body": "Email body message when comment is deleted. $1 - username, $2 - user realname, $3 - original post owner realname",
 	"bs-social-notifications-web-comment-delete-body": "Web message when comment is deleted. $1 - username, $2 - user realname, $3 - original post owner realname",
-	"bs-social-notifications-comment-edit-bundle": "Bundle message when same comment was edited multiple times. $1 - number of edits, $2 - username, $3 - user realname",
 
 	"bs-social-notifications-comment-owner-create": "Short message to the owner of the post when new comment is created. $1 - username, $2 - user realname",
 	"bs-social-notifications-email-comment-owner-create-subject": "Email subject to the owner of the post when new comment is created. $1 - username, $2 - user realname",
@@ -31,7 +30,7 @@
 	"bs-social-notifications-email-comment-owner-delete-subject": "Email subject to the owner of the post when comment is deleted. $1 - username, $2 - user realname",
 	"bs-social-notifications-email-comment-owner-delete-body": "Email body to the owner of the post message when comment is deleted. $1 - username, $2 - user realname",
 	"bs-social-notifications-web-comment-owner-delete-body": "Web message to the owner of the post when comment is deleted. $1 - username, $2 - user realname",
-	"bs-social-notifications-comment-owner-edit-bundle": "Bundle message  to the owner of the post when same entity was edited multiple times. $1 - number of edits, $2 - username, $3 - user realname",
+	"bs-social-notifications-comment-owner-edit-bundle": "Bundle message  to the owner of the post when same entity was edited multiple times. $1 - number of edits",
 
 	"bs-social-notification-comment-primary-link-label": "Label for primary link button. It leads to the comment page",
 	"bs-social-notification-comment-parentowner-label": "Label for secondary link, leads to userpage of post owner. $1 - Post owner realname",
