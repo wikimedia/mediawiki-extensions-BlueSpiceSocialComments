@@ -4,7 +4,7 @@ namespace BlueSpice\Social\Comments\Notification;
 
 class Registrator {
 	public static function registerNotifications( \BlueSpice\NotificationManager $notificationsManager ) {
-		$echoNotifier = $notificationsManager->getNotifier( 'bsecho' );
+		$echoNotifier = $notificationsManager->getNotifier();
 
 		$echoNotifier->registerNotificationCategory( 'bs-social-comment-cat', ['priority' => 3] );
 
@@ -40,7 +40,6 @@ class Registrator {
 
 		$notificationsManager->registerNotification(
 			'bs-social-comment-create',
-			$echoNotifier,
 			array_merge( $config, [
 				'summary-message' => 'bs-social-notifications-comment-create',
 				'email-subject-message' => 'bs-social-notifications-email-comment-create-subject',
@@ -51,7 +50,6 @@ class Registrator {
 
 		$notificationsManager->registerNotification(
 			'bs-social-comment-edit',
-			$echoNotifier,
 			array_merge( $config, [
 				'summary-message' => 'bs-social-notifications-comment-edit',
 				'email-subject-message' => 'bs-social-notifications-email-comment-edit-subject',
@@ -62,7 +60,6 @@ class Registrator {
 
 		$notificationsManager->registerNotification(
 			'bs-social-comment-delete',
-			$echoNotifier,
 			array_merge( $config, [
 				'summary-message' => 'bs-social-notifications-comment-delete',
 				'email-subject-message' => 'bs-social-notifications-email-comment-delete-subject',
@@ -76,7 +73,6 @@ class Registrator {
 
 		$notificationsManager->registerNotification(
 			'bs-social-comment-owner-create',
-			$echoNotifier,
 			array_merge( $config, [
 				'section' => 'message',
 				'summary-message' => 'bs-social-notifications-comment-owner-create',
@@ -94,7 +90,6 @@ class Registrator {
 
 		$notificationsManager->registerNotification(
 			'bs-social-comment-owner-edit',
-			$echoNotifier,
 			array_merge( $config, [
 				'section' => 'message',
 				'summary-message' => 'bs-social-notifications-comment-owner-edit',
@@ -121,7 +116,6 @@ class Registrator {
 
 		$notificationsManager->registerNotification(
 			'bs-social-comment-owner-delete',
-			$echoNotifier,
 			array_merge( $config, [
 				'section' => 'message',
 				'summary-message' => 'bs-social-notifications-comment-owner-delete',
