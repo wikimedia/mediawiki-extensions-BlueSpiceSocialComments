@@ -48,4 +48,20 @@ class Comment extends Text {
 		}
 		return $aActions;
 	}
+
+	/**
+	 * Returns the Message object for the entity header
+	 * @param Message $msg
+	 * @return Message
+	 */
+	public function getHeader( $msg = null ) {
+		$msg = parent::getHeader( $msg );
+		if( !$this->exists() ) {
+			return $msg;
+		}
+		return $msg->params( [
+			$this->getParent()->getTitle()->getFullText(),
+			strip_tags( $this->getParent()->getHeader()->parse() )
+		]);
+	}
 }

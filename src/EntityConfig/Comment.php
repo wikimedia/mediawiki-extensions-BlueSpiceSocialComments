@@ -55,11 +55,21 @@ class Comment extends Text {
 		]);
 	}
 	protected function get_HeaderMessageKeyCreateNew() {
-		return 'bs-social-entitycomment-header-create';
+		return 'bs-socialcomments-header-create';
 	}
+
+	protected function get_HeaderMessageKey() {
+		return 'bs-socialcomments-header';
+	}
+
 	protected function get_TypeMessageKey() {
 		return 'bs-socialcomments-type';
 	}
+
+	protected function get_EntityTemplateShort() {
+		return 'BlueSpiceSocialComments.Entity.Comment.Short';
+	}
+
 	protected function get_IsWatchable() {
 		return false;
 	}
@@ -85,6 +95,9 @@ class Comment extends Text {
 		return true;
 	}
 
+	protected function get_EntityListChildrenOutputType() {
+		return 'Short';
+	}
 	protected function get_CanHaveChildren() {
 		return false;
 	}
