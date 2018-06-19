@@ -80,4 +80,12 @@ class Comment extends Text {
 	protected function get_NotificationTypePrefix() {
 		return 'bs-social-comment';
 	}
+
+	protected function get_EntityListTypeChildrenAllowed() {
+		return true;
+	}
+
+	protected function get_CanHaveChildren() {
+		return false;
+	}
 }
