@@ -61,7 +61,7 @@ class Comment extends Text {
 		}
 		return $msg->params( [
 			$this->getParent()->getTitle()->getFullText(),
-			$this->getParent()->getHeader()
+			strip_tags( $this->getParent()->getHeader()->parse() )
 		]);
 	}
 }
