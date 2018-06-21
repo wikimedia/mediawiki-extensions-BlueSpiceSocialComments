@@ -57,11 +57,11 @@
 	},
 	"Hooks": {
 		"BSSocialEntityOutputRenderAfterContent": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityOutputRenderAfterContent\\AddCommentSection::callback",
-		"BSSocialEntityOutputRenderBeforeChildren": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityOutputRenderBeforeChildren\\AddEmptyComment::callback",
 		"BSSocialAllowedSorterValues": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialAllowedSorterValues\\AddCommentCount::callback",
 		"BSEntityGetFullData": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityGetFullData\\AddCommentsCount::callback",
 		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialModuleDepths\\AddModules::callback",
-		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityConfigAttributeDefinitions\\AddCommentCount::callback"
+		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityConfigAttributeDefinitions\\AddCommentCount::callback",
+		"BSSocialEntityListInitialized": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityListInitialized\\PreloadNewComment::callback"
 	},
 	"manifest_version": 2
 }
