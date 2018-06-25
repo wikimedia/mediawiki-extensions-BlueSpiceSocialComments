@@ -1,9 +1,12 @@
 {
-	"name": "mediawiki/blue-spice-social-comments",
+	"name": "bluespice/socialcomments",
 	"type": "mediawiki-extension",
 	"description": "Comment functionality for social",
 	"license": "GPL-3.0",
 	"require": {
 		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"installer-name": "BlueSpiceSocialComments"
 	}
 }
