@@ -49,6 +49,16 @@ class Comment extends Text {
 		return $aActions;
 	}
 
+	public function save(\User $oUser = null, $aOptions = array()) {
+		if( !$this->getParent() || !$this->getParent()->exists() ) {
+			return \Status::newFatal(
+				'bs-socialcomments-entity-fatalstatus-save-emptyfield',
+				$this->getVarMessage( static::ATTR_PARENT_ID )->plain()
+			);
+		}
+		return parent::save( $oUser, $aOptions );
+	}
+
 	/**
 	 * Returns the Message object for the entity header
 	 * @param Message $msg
