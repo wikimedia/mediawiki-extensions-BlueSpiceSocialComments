@@ -28,16 +28,34 @@ class AddCommentSection extends BSSocialEntityOutputRenderAfterContent {
 			["type" => "comment"]
 		);
 
-		$sView .= \XML::openElement( "a", [
+		$countChildren = count( $aChildren );
+
+		$sView .= \Html::openElement( "a", [
 			'class' => 'bs-social-entityaftercontent-comment'
 		]);
-		$sView .= wfMessage(
+
+		// Only present on mobile view.
+		$sView .= \Html::element(
+			'span',
+			['class' => 'bs-social-count-short'],
+			$countChildren
+		);
+
+		$msg = wfMessage(
 			'bs-socialcomments-commenttext',
-			count( $aChildren )
-		)->parse();
-		$sView .= \XML::closeElement( "a" );
+			$countChildren
+		);
+
+		$sView .= \Html::element(
+			'span',
+			['class' => 'bs-social-count-default'],
+			$msg->parse()
+		);
+
+		$sView .= \Html::closeElement( "a" );
 
 		$this->aViews[] = $sView;
+
 		return true;
 	}
 }
