@@ -29,7 +29,11 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
  */
 namespace BlueSpice\Social\Comments\Entity;
+
 use BlueSpice\Social\Entity\Text;
+use BlueSpice\EntityConfig;
+use BlueSpice\EntityFactory;
+
 /**
  * Comment class for BSSocial extension
  * @package BlueSpiceSocial
@@ -37,6 +41,29 @@ use BlueSpice\Social\Entity\Text;
  */
 class Comment extends Text {
 	const TYPE = 'comment';
+
+	/**
+	 * Returns the instance - Should not be used directly. This is a workaround
+	 * as all entity __construc methods are protected. Use mediawiki service
+	 * 'BSEntityFactory' instead
+	 * @param \stdClass $data
+	 * @param \BlueSpice\EntityConfig $oConfig
+	 * @param \BlueSpice\EntityFactory $entityFactory
+	 * @return \static
+	 */
+	public static function newFromFactory( \stdClass $data, EntityConfig $oConfig, EntityFactory $entityFactory ) {
+		$instance = new static( $data, $oConfig );
+		//Dealing with currupted entities, whenever a proccess or - more likely
+		//a humen breaks stuff by deleting, moving, protecting... etc. source
+		//titles
+		if( $instance->get( static::ATTR_PARENT_ID ) < 1 ) {
+			return null;
+		}
+		if( !$instance->getParent() ) {
+			return null;
+		}
+		return $instance;
+	}
 
 	public function getActions( array $aActions = array(), \User $oUser = null ) {
 		$aActions = parent::getActions( $aActions, $oUser );
@@ -68,6 +95,9 @@ class Comment extends Text {
 		$msg = parent::getHeader( $msg );
 		if( !$this->exists() ) {
 			return $msg;
+		}
+		if( !$this->getParent() ) {
+			error_log(var_export( $this->get(static::ATTR_PARENT_ID),1 ));
 		}
 		return $msg->params( [
 			$this->getParent()->getTitle()->getFullText(),
