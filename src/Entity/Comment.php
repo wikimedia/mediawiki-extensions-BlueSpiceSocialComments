@@ -96,9 +96,7 @@ class Comment extends Text {
 		if( !$this->exists() ) {
 			return $msg;
 		}
-		if( !$this->getParent() ) {
-			error_log(var_export( $this->get(static::ATTR_PARENT_ID),1 ));
-		}
+
 		return $msg->params( [
 			$this->getParent()->getTitle()->getFullText(),
 			strip_tags( $this->getParent()->getHeader()->parse() )
