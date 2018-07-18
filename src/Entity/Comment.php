@@ -7,8 +7,7 @@
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
+ * the Free Software Foundation; version 3 of the License.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -25,8 +24,8 @@
  * @author     Patric Wirth <wirth@hallowelt.com>
  * @package    BlueSpiceSocial
  * @subpackage BSSocialMicroBlog
- * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
+ * @copyright  Copyright (C) 2018 Hallo Welt! GmbH, All rights reserved.
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
  */
 namespace BlueSpice\Social\Comments\Entity;
 
@@ -44,7 +43,7 @@ class Comment extends Text {
 
 	/**
 	 * Returns the instance - Should not be used directly. This is a workaround
-	 * as all entity __construc methods are protected. Use mediawiki service
+	 * as all entity __construct methods are protected. Use mediawiki service
 	 * 'BSEntityFactory' instead
 	 * @param \stdClass $data
 	 * @param \BlueSpice\EntityConfig $oConfig
@@ -54,7 +53,7 @@ class Comment extends Text {
 	public static function newFromFactory( \stdClass $data, EntityConfig $oConfig, EntityFactory $entityFactory ) {
 		$instance = new static( $data, $oConfig );
 		//Dealing with currupted entities, whenever a proccess or - more likely
-		//a humen breaks stuff by deleting, moving, protecting... etc. source
+		//a human breaks stuff by deleting, moving, protecting... etc. source
 		//titles
 		if( $instance->get( static::ATTR_PARENT_ID ) < 1 ) {
 			return null;
