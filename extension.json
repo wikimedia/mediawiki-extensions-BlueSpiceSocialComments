@@ -58,7 +58,6 @@
 	},
 	"Hooks": {
 		"BSSocialEntityOutputRenderAfterContent": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityOutputRenderAfterContent\\AddCommentSection::callback",
-		"BSSocialAllowedSorterValues": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialAllowedSorterValues\\AddCommentCount::callback",
 		"BSEntityGetFullData": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityGetFullData\\AddCommentsCount::callback",
 		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialModuleDepths\\AddModules::callback",
 		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityConfigAttributeDefinitions\\AddCommentCount::callback",
