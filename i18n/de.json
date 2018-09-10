@@ -7,7 +7,7 @@
 	"bs-socialcomments-desc": "BSSocial",
 	"bs-socialcomments-type": "Kommentar",
 	"bs-socialcomments-commenttext": "{{plural:$1|Kommentar|Kommentare}}($1)",
-	"bs-socialcomments-header-create": "Neuer Kommentar",
+	"bs-socialcomments-header-create": "Kommentieren",
 	"bs-socialcomments-header": "[[User:$1|$2]] kommentierte \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Anzahl Kommentare"
 }
