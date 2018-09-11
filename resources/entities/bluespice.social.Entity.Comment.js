@@ -14,14 +14,5 @@ bs.social.EntityComment = function( $el, type, data ) {
 OO.initClass( bs.social.EntityComment );
 OO.inheritClass( bs.social.EntityComment, bs.social.EntityText );
 
-bs.social.EntityComment.prototype.removeEditMode = function() {
-	if( this.exists() ) {
-		return bs.social.EntityComment.super.prototype.removeEditMode.apply(
-			this
-		);
-	}
-	this.editor.text.setValue( '' );
-};
-
 bs.social.EntityComment.static.name = "\\BlueSpice\\Social\\Comments\\Entity\\Comment";
 bs.social.factory.register( bs.social.EntityComment );
