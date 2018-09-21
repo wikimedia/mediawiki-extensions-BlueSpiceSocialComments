@@ -4,7 +4,7 @@
 			"Patric Wirth <wirth@hallowelt.com>"
 		]
 	},
-	"bs-socialcomments-desc": "Comment functionality for social",
+	"bs-socialcomments-desc": "Comment functionality for BlueSpiceSocial",
 	"bs-socialcomments-type": "Comment",
 	"bs-socialcomments-commenttext": "{{plural:$1|Comment|Comments}}($1)",
 	"bs-socialcomments-header-create": "Comment",
