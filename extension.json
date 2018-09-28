@@ -56,6 +56,9 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceSocialComments/resources"
 	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-bs-social-comment-cat": 1
+	},
 	"Hooks": {
 		"BSSocialEntityOutputRenderAfterContent": "\\BlueSpice\\Social\\Comments\\Hook\\BSSocialEntityOutputRenderAfterContent\\AddCommentSection::callback",
 		"BSEntityGetFullData": "\\BlueSpice\\Social\\Comments\\Hook\\BSEntityGetFullData\\AddCommentsCount::callback",
