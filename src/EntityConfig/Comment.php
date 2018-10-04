@@ -101,4 +101,8 @@ class Comment extends Text {
 	protected function get_CanHaveChildren() {
 		return false;
 	}
+
+	protected function get_EntityListSpecialTimelineTypeSelected() {
+		return true;
+	}
 }
