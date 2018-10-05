@@ -16,8 +16,15 @@ $( document ).bind( 'BSSocialEntityInit', function( event, Entity, $el, type, da
 	);
 
 	$anchor.on( 'click', function() {
-		Entity.getContainer( Entity.CHILDREN_CONTAINER ).find(
+		var $entityList = Entity.getContainer( Entity.CHILDREN_CONTAINER ).find(
 			'.bs-social-entitylist'
-		).first().toggle();
+		).first();
+		if( $entityList.length < 1 ) {
+			return;
+		}
+		$entityList.toggle();
+		$entityList.siblings(
+			'.bs-social-entitylist-more:not(.forcehidden), .bs-social-entitylist-menu, .bs-social-entitylist-headline'
+		).toggle()
 	});
 });
