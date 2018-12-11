@@ -34,15 +34,15 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.social.comments.styles": {
-			"targets": [ "desktop", "mobile" ],
-			"styles": "bluespice.social.comments.css"
+			"styles": [
+				"bluespice.social.comments.css"
+			]
 		},
 		"ext.bluespice.social.entity.comment": {
 			"dependencies": [
 				"ext.bluespice.social.entity",
 				"ext.bluespice.social.entity.text"
 			],
-			"targets": [ "desktop", "mobile" ],
 			"scripts": [
 				"bluespice.social.comments.js",
 				"entities/bluespice.social.Entity.Comment.js"
