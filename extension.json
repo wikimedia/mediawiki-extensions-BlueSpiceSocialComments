@@ -48,7 +48,8 @@
 				"entities/bluespice.social.Entity.Comment.js"
 			],
 			"messages": [
-				"bs-socialcomments-var-commentcount"
+				"bs-socialcomments-var-commentcount",
+				"bs-socialcomments-commenttext"
 			]
 		}
 	},
