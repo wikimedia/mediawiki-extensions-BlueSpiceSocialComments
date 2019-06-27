@@ -25,7 +25,7 @@
  * @package    BlueSpiceSocial
  * @subpackage BSSocialMicroBlog
  * @copyright  Copyright (C) 2018 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  */
 namespace BlueSpice\Social\Comments\Entity;
 
