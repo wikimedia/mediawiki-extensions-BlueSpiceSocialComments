@@ -10,22 +10,26 @@ use BlueSpice\Social\Entity;
 
 class PreloadNewComment extends BSSocialEntityListInitialized {
 
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function skipProcessing() {
-		if( !$this->entityList->getContext() instanceof Children ) {
+		if ( !$this->entityList->getContext() instanceof Children ) {
 			return true;
 		}
-		$parentEntity = $this->entityList->getContext()->getParent(); 
-		if( !$parentEntity instanceof Entity || !$parentEntity->exists() ) {
+		$parentEntity = $this->entityList->getContext()->getParent();
+		if ( !$parentEntity instanceof Entity || !$parentEntity->exists() ) {
 			return true;
 		}
-		if( !$parentEntity->getConfig()->get( 'CanHaveChildren' ) ) {
+		if ( !$parentEntity->getConfig()->get( 'CanHaveChildren' ) ) {
 			return true;
 		}
 
 		$comment = $this->getServices()->getBSEntityFactory()->newFromObject(
 			$this->getRawComment()
 		);
-		if( !$comment instanceof Comment ) {
+		if ( !$comment instanceof Comment ) {
 			return true;
 		}
 
@@ -33,7 +37,7 @@ class PreloadNewComment extends BSSocialEntityListInitialized {
 			'create',
 			$this->entityList->getContext()->getUser()
 		);
-		if( !$status->isOk() ) {
+		if ( !$status->isOk() ) {
 			return true;
 		}
 
@@ -41,12 +45,16 @@ class PreloadNewComment extends BSSocialEntityListInitialized {
 	}
 
 	protected function doProcess() {
-		//TODO: Check if comments are available in children - for now there are
-		//only comments available...
+		// TODO: Check if comments are available in children - for now there are
+		// only comments available...
 		$this->args[ EntityList::PARAM_PRELOADED_ENTITIES ][]
 			= $this->getRawComment();
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function getRawComment() {
 		$parentEntity = $this->entityList->getContext()->getParent();
 		return (object)[

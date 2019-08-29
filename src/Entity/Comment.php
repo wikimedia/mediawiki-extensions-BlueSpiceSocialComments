@@ -29,6 +29,8 @@
  */
 namespace BlueSpice\Social\Comments\Entity;
 
+use Status;
+use User;
 use BlueSpice\Social\Entity\Text;
 use BlueSpice\EntityConfig;
 use BlueSpice\EntityFactory;
@@ -47,7 +49,8 @@ class Comment extends Text {
 	 * 'BSEntityFactory' instead
 	 * @param \stdClass $data
 	 * @param EntityConfig $config
-	 * @param EntityFactory $entityFactory
+	 * @param IStore $store
+	 * @param EntityFactory|null $entityFactory
 	 * @return \static
 	 */
 	public static function newFromFactory( \stdClass $data, EntityConfig $config,
@@ -58,53 +61,65 @@ class Comment extends Text {
 			);
 		}
 		$instance = new static( $data, $config, $entityFactory, $store );
-		//Dealing with currupted entities, whenever a proccess or - more likely
-		//a human breaks stuff by deleting, moving, protecting... etc. source
-		//titles
-		if( $instance->get( static::ATTR_PARENT_ID, 0 ) < 1 ) {
+		// Dealing with currupted entities, whenever a proccess or - more likely
+		// a human breaks stuff by deleting, moving, protecting... etc. source
+		// titles
+		if ( $instance->get( static::ATTR_PARENT_ID, 0 ) < 1 ) {
 			return null;
 		}
-		if( !$instance->getParent() ) {
+		if ( !$instance->getParent() ) {
 			return null;
 		}
 		return $instance;
 	}
 
-	public function getActions( array $aActions = array(), \User $oUser = null ) {
-		$aActions = parent::getActions( $aActions, $oUser );
-		if( in_array( 'create', $aActions ) ) {
-			if( !$this->hasParent() ) {
-				//Comments must have a parrent
-				unset( $aActions[ 'create'] );
+	/**
+	 *
+	 * @param array $actions
+	 * @param User|null $user
+	 * @return array
+	 */
+	public function getActions( array $actions = [], User $user = null ) {
+		$actions = parent::getActions( $actions, $user );
+		if ( in_array( 'create', $actions ) ) {
+			if ( !$this->hasParent() ) {
+				// Comments must have a parrent
+				unset( $actions[ 'create'] );
 			}
 		}
-		return $aActions;
+		return $actions;
 	}
 
-	public function save(\User $oUser = null, $aOptions = array()) {
-		if( !$this->getParent() || !$this->getParent()->exists() ) {
-			return \Status::newFatal(
+	/**
+	 *
+	 * @param User|null $user
+	 * @param array $options
+	 * @return Status
+	 */
+	public function save( User $user = null, $options = [] ) {
+		if ( !$this->getParent() || !$this->getParent()->exists() ) {
+			return Status::newFatal(
 				'bs-socialcomments-entity-fatalstatus-save-emptyfield',
 				$this->getVarMessage( static::ATTR_PARENT_ID )->plain()
 			);
 		}
-		return parent::save( $oUser, $aOptions );
+		return parent::save( $user, $options );
 	}
 
 	/**
 	 * Returns the Message object for the entity header
-	 * @param Message $msg
+	 * @param Message|null $msg
 	 * @return Message
 	 */
 	public function getHeader( $msg = null ) {
 		$msg = parent::getHeader( $msg );
-		if( !$this->exists() ) {
+		if ( !$this->exists() ) {
 			return $msg;
 		}
 
 		return $msg->params( [
 			$this->getParent()->getTitle()->getFullText(),
 			strip_tags( $this->getParent()->getHeader()->parse() )
-		]);
+		] );
 	}
 }

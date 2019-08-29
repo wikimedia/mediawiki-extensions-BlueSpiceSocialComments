@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\Social\Comments\Hook\BSSocialModuleDepths;
+
 use BlueSpice\Social\Hook\BSSocialModuleDepths;
 
 class AddModules extends BSSocialModuleDepths {

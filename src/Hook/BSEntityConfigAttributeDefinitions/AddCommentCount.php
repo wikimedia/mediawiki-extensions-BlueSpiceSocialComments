@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\Social\Comments\Hook\BSEntityConfigAttributeDefinitions;
+
 use BlueSpice\Hook\BSEntityConfigAttributeDefinitions;
 use BlueSpice\Social\EntityConfig;
 use BlueSpice\Social\Comments\EntityConfig\Comment;
@@ -13,13 +14,13 @@ use BlueSpice\Data\FieldType;
 class AddCommentCount extends BSEntityConfigAttributeDefinitions {
 
 	protected function skipProcessing() {
-		if( !$this->entityConfig instanceof EntityConfig ) {
+		if ( !$this->entityConfig instanceof EntityConfig ) {
 			return true;
 		}
-		if( $this->entityConfig instanceof Comment ) {
+		if ( $this->entityConfig instanceof Comment ) {
 			return true;
 		}
-		if( !$this->entityConfig->get( 'CanHaveChildren' ) ) {
+		if ( !$this->entityConfig->get( 'CanHaveChildren' ) ) {
 			return true;
 		}
 		return parent::skipProcessing();

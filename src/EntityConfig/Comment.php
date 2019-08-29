@@ -30,6 +30,7 @@
  * @filesource
  */
 namespace BlueSpice\Social\Comments\EntityConfig;
+
 use BlueSpice\Social\EntityConfig\Text;
 
 /**
@@ -38,48 +39,102 @@ use BlueSpice\Social\EntityConfig\Text;
  * @subpackage BSSocial
  */
 class Comment extends Text {
+	/**
+	 *
+	 * @return array
+	 */
 	public function addGetterDefaults() {
-		return array();
+		return [];
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityClass() {
 		return "\\BlueSpice\\Social\\Comments\\Entity\\Comment";
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleStyles() {
 		return array_merge( parent::get_ModuleStyles(), [
 			'ext.bluespice.social.comments.styles',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_ModuleScripts() {
 		return array_merge( parent::get_ModuleScripts(), [
 			'ext.bluespice.social.entity.comment',
-		]);
+		] );
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_HeaderMessageKeyCreateNew() {
 		return 'bs-socialcomments-header-create';
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_HeaderMessageKey() {
 		return 'bs-socialcomments-header';
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_TypeMessageKey() {
 		return 'bs-socialcomments-type';
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityTemplateShort() {
 		return 'BlueSpiceSocialComments.Entity.Comment.Short';
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function get_IsWatchable() {
 		return false;
 	}
+
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function get_IsSpawnable() {
 		return false;
 	}
+
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function get_IsTagable() {
 		return false;
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function get_NotificationObjectClass() {
 		return [
 			\BlueSpice\Social\Comments\Notification\SocialCommentsNotification::class,
@@ -87,21 +142,42 @@ class Comment extends Text {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_NotificationTypePrefix() {
 		return 'bs-social-comment';
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function get_EntityListTypeChildrenAllowed() {
 		return true;
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityListChildrenOutputType() {
 		return 'Short';
 	}
+
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function get_CanHaveChildren() {
 		return false;
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function get_EntityListSpecialTimelineTypeSelected() {
 		return true;
 	}
