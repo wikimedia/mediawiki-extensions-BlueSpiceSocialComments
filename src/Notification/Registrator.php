@@ -2,11 +2,20 @@
 
 namespace BlueSpice\Social\Comments\Notification;
 
+use BlueSpice\NotificationManager;
+
 class Registrator {
-	public static function registerNotifications( \BlueSpice\NotificationManager $notificationsManager ) {
+	/**
+	 *
+	 * @param NotificationManager $notificationsManager
+	 */
+	public static function registerNotifications( NotificationManager $notificationsManager ) {
 		$echoNotifier = $notificationsManager->getNotifier();
 
-		$echoNotifier->registerNotificationCategory( 'bs-social-comment-cat', ['priority' => 3] );
+		$echoNotifier->registerNotificationCategory(
+			'bs-social-comment-cat',
+			[ 'priority' => 3 ]
+		);
 
 		$config = [
 			'category' => 'bs-social-comment-cat',

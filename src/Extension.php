@@ -27,4 +27,5 @@
  */
 namespace BlueSpice\Social\Comments;
 
-class Extension extends \BlueSpice\Extension {}
+class Extension extends \BlueSpice\Extension {
+}

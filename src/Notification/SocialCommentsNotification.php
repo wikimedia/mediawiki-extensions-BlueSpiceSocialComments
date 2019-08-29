@@ -2,6 +2,10 @@
 
 namespace BlueSpice\Social\Comments\Notification;
 
+use User;
+use Message;
+use Title;
+use BlueSpice\Services;
 use BlueSpice\Social\Notifications\SocialTextNotification;
 
 class SocialCommentsNotification extends SocialTextNotification {
@@ -9,19 +13,25 @@ class SocialCommentsNotification extends SocialTextNotification {
 	protected $parentEntityOwnerRealname;
 	protected $parentEntity;
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getParams() {
 		$params = parent::getParams();
 
-		$params['primary-link-label'] = wfMessage( 'bs-social-notification-comment-primary-link-label' )->plain();
+		$params['primary-link-label'] = Message::newFromKey(
+			'bs-social-notification-comment-primary-link-label'
+		)->plain();
 
 		$this->getParentEntityInfo();
 
-		if( $this->parentEntity ) {
+		if ( $this->parentEntity ) {
 			$params['parentownerrealname'] = $this->parentEntityOwnerRealname;
 			$params['secondary-links'] = [
 				'parentowner' => [
 					'url' => $this->parentEntityOwner->getUserPage()->getFullURL(),
-					'label-params' => [$this->parentEntityOwnerRealname]
+					'label-params' => [ $this->parentEntityOwnerRealname ]
 				],
 				'parententity' => [
 					'url' => $this->parentEntity->getTitle()->getFullURL()
@@ -32,31 +42,43 @@ class SocialCommentsNotification extends SocialTextNotification {
 		return $params;
 	}
 
+	/**
+	 *
+	 * @return Title
+	 */
 	protected function getWatchedTitle() {
 		$parent = $this->entity->getParent();
 		return $parent->getTitle();
 	}
 
+	/**
+	 *
+	 * @return int[]
+	 */
 	protected function getUserIdsToSkip() {
 		$usersToSkip = parent::getUserIdsToSkip();
-		if( $this->parentEntityOwner instanceof \User ) {
+		if ( $this->parentEntityOwner instanceof User ) {
 			$usersToSkip[] = $this->parentEntityOwner->getId();
 		}
 
 		return $usersToSkip;
 	}
 
+	/**
+	 *
+	 * @return void
+	 */
 	protected function getParentEntityInfo() {
-		if( $this->entity->hasParent() == false ) {
+		if ( $this->entity->hasParent() == false ) {
 			return;
 		}
 
 		$this->parentEntity = $this->entity->getParent();
 
-		$this->parentEntityOwner = $this->parentEntity ->getOwner();
+		$this->parentEntityOwner = $this->parentEntity->getOwner();
 
-		if( $this->parentEntityOwner instanceof \User ) {
-			$this->parentEntityOwnerRealname = \BlueSpice\Services::getInstance()->getBSUtilityFactory()
+		if ( $this->parentEntityOwner instanceof User ) {
+			$this->parentEntityOwnerRealname = Services::getInstance()->getBSUtilityFactory()
 				->getUserHelper( $this->parentEntityOwner )->getDisplayName();
 		}
 	}

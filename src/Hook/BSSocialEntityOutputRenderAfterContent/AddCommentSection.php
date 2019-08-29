@@ -1,6 +1,7 @@
 <?php
 
 namespace BlueSpice\Social\Comments\Hook\BSSocialEntityOutputRenderAfterContent;
+
 use BlueSpice\Social\Hook\BSSocialEntityOutputRenderAfterContent;
 use BlueSpice\Social\Entity;
 
@@ -12,32 +13,32 @@ class AddCommentSection extends BSSocialEntityOutputRenderAfterContent {
 	protected function doProcess() {
 		$oEntity = $this->oEntityOutput->getEntity();
 
-		if( !$oEntity instanceof Entity ) {
+		if ( !$oEntity instanceof Entity ) {
 			return true;
 		}
-		if( !$oEntity->exists() || $oEntity->hasParent() ) {
+		if ( !$oEntity->exists() || $oEntity->hasParent() ) {
 			return true;
 		}
-		if( !$oEntity->getConfig()->get( 'CanHaveChildren' ) ) {
+		if ( !$oEntity->getConfig()->get( 'CanHaveChildren' ) ) {
 			return true;
 		}
 
 		$sView = '';
 		$aChildren = $oEntity->getChildren(
 			[],
-			["type" => "comment"]
+			[ "type" => "comment" ]
 		);
 
 		$countChildren = count( $aChildren );
 
 		$sView .= \Html::openElement( "a", [
 			'class' => 'bs-social-entityaftercontent-comment'
-		]);
+		] );
 
 		// Only present on mobile view.
 		$sView .= \Html::element(
 			'span',
-			['class' => 'bs-social-count-short'],
+			[ 'class' => 'bs-social-count-short' ],
 			$countChildren
 		);
 
@@ -48,7 +49,7 @@ class AddCommentSection extends BSSocialEntityOutputRenderAfterContent {
 
 		$sView .= \Html::element(
 			'span',
-			['class' => 'bs-social-count-default'],
+			[ 'class' => 'bs-social-count-default' ],
 			$msg->parse()
 		);
 
