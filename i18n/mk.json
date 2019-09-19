@@ -9,5 +9,6 @@
 	"bs-socialcomments-header-create": "Коментар",
 	"bs-social-notification-comment-primary-link-label": "Прегледај коментар",
 	"bs-social-notification-comment-parentowner-label": "Создател на објавата: $1",
-	"bs-social-notification-comment-parententity-label": "Прегледај објава"
+	"bs-social-notification-comment-parententity-label": "Прегледај објава",
+	"bs-social-notifications-email-comment-create-subject": "Корисникот {{GENDER:$1|$2 направи}} нов коментар"
 }
