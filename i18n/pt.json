@@ -5,6 +5,7 @@
 			"Hamilton Abreu"
 		]
 	},
+	"bs-socialcomments-desc": "Funcionalidade de comentários para BlueSpiceSocial",
 	"bs-socialcomments-type": "Comentário",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentário|Comentários}} ($1)",
 	"bs-socialcomments-header-create": "Comentário",
