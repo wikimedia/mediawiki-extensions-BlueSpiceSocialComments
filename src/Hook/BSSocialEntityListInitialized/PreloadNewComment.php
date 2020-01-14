@@ -2,11 +2,11 @@
 
 namespace BlueSpice\Social\Comments\Hook\BSSocialEntityListInitialized;
 
-use BlueSpice\Social\Hook\BSSocialEntityListInitialized;
-use BlueSpice\Social\EntityListContext\Children;
-use BlueSpice\Social\Renderer\EntityList;
 use BlueSpice\Social\Comments\Entity\Comment;
 use BlueSpice\Social\Entity;
+use BlueSpice\Social\EntityListContext\Children;
+use BlueSpice\Social\Hook\BSSocialEntityListInitialized;
+use BlueSpice\Social\Renderer\EntityList;
 
 class PreloadNewComment extends BSSocialEntityListInitialized {
 

@@ -29,12 +29,12 @@
  */
 namespace BlueSpice\Social\Comments\Entity;
 
-use Status;
-use User;
-use BlueSpice\Social\Entity\Text;
+use BlueSpice\Data\Entity\IStore;
 use BlueSpice\EntityConfig;
 use BlueSpice\EntityFactory;
-use BlueSpice\Data\Entity\IStore;
+use BlueSpice\Social\Entity\Text;
+use Status;
+use User;
 
 /**
  * Comment class for BSSocial extension

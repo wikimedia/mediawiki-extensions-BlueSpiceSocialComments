@@ -3,8 +3,8 @@
 namespace BlueSpice\Social\Comments\Hook\BSEntityGetFullData;
 
 use BlueSpice\Hook\BSEntityGetFullData;
-use BlueSpice\Social\Entity;
 use BlueSpice\Social\Comments\Entity as CommentEntity;
+use BlueSpice\Social\Entity;
 
 class AddCommentsCount extends BSEntityGetFullData {
 

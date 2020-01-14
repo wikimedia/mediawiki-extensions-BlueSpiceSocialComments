@@ -2,11 +2,11 @@
 
 namespace BlueSpice\Social\Comments\Hook\BSEntityConfigAttributeDefinitions;
 
-use BlueSpice\Hook\BSEntityConfigAttributeDefinitions;
-use BlueSpice\Social\EntityConfig;
-use BlueSpice\Social\Comments\EntityConfig\Comment;
 use BlueSpice\Data\Entity\Schema;
 use BlueSpice\Data\FieldType;
+use BlueSpice\Hook\BSEntityConfigAttributeDefinitions;
+use BlueSpice\Social\Comments\EntityConfig\Comment;
+use BlueSpice\Social\EntityConfig;
 
 /**
  * Adds commentcount to the entity attribute definitions

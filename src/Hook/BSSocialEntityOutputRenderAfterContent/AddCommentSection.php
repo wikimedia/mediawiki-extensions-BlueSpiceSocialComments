@@ -2,8 +2,8 @@
 
 namespace BlueSpice\Social\Comments\Hook\BSSocialEntityOutputRenderAfterContent;
 
-use BlueSpice\Social\Hook\BSSocialEntityOutputRenderAfterContent;
 use BlueSpice\Social\Entity;
+use BlueSpice\Social\Hook\BSSocialEntityOutputRenderAfterContent;
 
 /**
  * Adds a comment count to every non comment entity view

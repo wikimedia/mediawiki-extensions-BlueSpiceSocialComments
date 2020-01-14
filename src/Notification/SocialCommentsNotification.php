@@ -2,11 +2,11 @@
 
 namespace BlueSpice\Social\Comments\Notification;
 
-use User;
-use Message;
-use Title;
 use BlueSpice\Services;
 use BlueSpice\Social\Notifications\SocialTextNotification;
+use Message;
+use Title;
+use User;
 
 class SocialCommentsNotification extends SocialTextNotification {
 	protected $parentEntityOwner;
