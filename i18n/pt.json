@@ -38,5 +38,6 @@
 	"bs-social-notifications-comment-owner-edit-bundle": "Os comentários na sua publicação foram editados {{PLURAL:$1|$1 vez|$1 vezes}}",
 	"bs-social-notification-comment-primary-link-label": "Ver comentário",
 	"bs-social-notification-comment-parentowner-label": "Criador da publicação: $1",
-	"bs-social-notification-comment-parententity-label": "Ver publicação"
+	"bs-social-notification-comment-parententity-label": "Ver publicação",
+	"bs-socialcomments-desc": "Funcionalidade de comentários para BlueSpiceSocial"
 }
