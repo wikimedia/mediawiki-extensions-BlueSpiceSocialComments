@@ -26,7 +26,7 @@ class PreloadNewComment extends BSSocialEntityListInitialized {
 			return true;
 		}
 
-		$comment = $this->getServices()->getBSEntityFactory()->newFromObject(
+		$comment = $this->getServices()->getService( 'BSEntityFactory' )->newFromObject(
 			$this->getRawComment()
 		);
 		if ( !$comment instanceof Comment ) {

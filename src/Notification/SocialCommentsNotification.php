@@ -78,7 +78,7 @@ class SocialCommentsNotification extends SocialTextNotification {
 		$this->parentEntityOwner = $this->parentEntity->getOwner();
 
 		if ( $this->parentEntityOwner instanceof User ) {
-			$this->parentEntityOwnerRealname = Services::getInstance()->getBSUtilityFactory()
+			$this->parentEntityOwnerRealname = Services::getInstance()->getService( 'BSUtilityFactory' )
 				->getUserHelper( $this->parentEntityOwner )->getDisplayName();
 		}
 	}
