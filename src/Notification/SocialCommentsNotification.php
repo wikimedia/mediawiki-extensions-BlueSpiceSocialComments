@@ -2,8 +2,8 @@
 
 namespace BlueSpice\Social\Comments\Notification;
 
-use BlueSpice\Services;
 use BlueSpice\Social\Notifications\SocialTextNotification;
+use MediaWiki\MediaWikiServices;
 use Message;
 use Title;
 use User;
@@ -78,8 +78,10 @@ class SocialCommentsNotification extends SocialTextNotification {
 		$this->parentEntityOwner = $this->parentEntity->getOwner();
 
 		if ( $this->parentEntityOwner instanceof User ) {
-			$this->parentEntityOwnerRealname = Services::getInstance()->getService( 'BSUtilityFactory' )
-				->getUserHelper( $this->parentEntityOwner )->getDisplayName();
+			$this->parentEntityOwnerRealname = MediaWikiServices::getInstance()
+				->getService( 'BSUtilityFactory' )
+				->getUserHelper( $this->parentEntityOwner )
+				->getDisplayName();
 		}
 	}
 }
