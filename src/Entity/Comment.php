@@ -81,7 +81,7 @@ class Comment extends Text {
 	 */
 	public function getActions( array $actions = [], User $user = null ) {
 		$actions = parent::getActions( $actions, $user );
-		if ( in_array( 'create', $actions ) ) {
+		if ( isset( $action['create'] ) ) {
 			if ( !$this->hasParent() ) {
 				// Comments must have a parrent
 				unset( $actions[ 'create'] );
