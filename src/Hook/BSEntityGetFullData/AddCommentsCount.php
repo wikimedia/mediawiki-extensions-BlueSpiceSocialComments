@@ -29,9 +29,10 @@ class AddCommentsCount extends BSEntityGetFullData {
 		if ( !$this->checkEntity() ) {
 			return true;
 		}
-		$this->data[ 'commentcount' ] = count(
-			$this->entity->getChildren( [], [], false, false )
-		);
+		$children = array_filter( $this->entity->getChildren(), function ( Entity $e ) {
+			return !$e->get( Entity::ATTR_ARCHIVED, false );
+		} );
+		$this->data[ 'commentcount' ] = count( $children );
 		return true;
 	}
 }
