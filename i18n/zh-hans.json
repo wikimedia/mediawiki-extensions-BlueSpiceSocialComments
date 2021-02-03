@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			")8",
 			"A Chinese Wikipedian"
 		]
 	},
-	"bs-social-notification-comment-primary-link-label": "显示内容"
+	"bs-social-notification-comment-primary-link-label": "显示内容",
+	"bs-socialcomments-type": "评论",
+	"bs-socialcomments-header-create": "评论",
+	"bs-social-notification-comment-parententity-label": "查看意见"
 }
