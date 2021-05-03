@@ -24,7 +24,7 @@ class AddCommentSection extends BSSocialEntityOutputRenderAfterContent {
 		}
 
 		$sView = '';
-		$aChildren = array_filter( $oEntity->getChildren(), function ( Entity $e ) {
+		$aChildren = array_filter( $oEntity->getChildren(), static function ( Entity $e ) {
 			return !$e->get( Entity::ATTR_ARCHIVED, false );
 		} );
 
