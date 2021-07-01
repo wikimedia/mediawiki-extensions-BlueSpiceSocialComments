@@ -5,5 +5,7 @@
 		]
 	},
 	"bs-socialcomments-type": "Panampen",
-	"bs-socialcomments-header-create": "Panampen"
+	"bs-socialcomments-header-create": "Panampen",
+	"bs-socialcomments-var-commentcount": "Petékan penampen",
+	"bs-social-notification-comment-primary-link-label": "Cingak penampen"
 }
