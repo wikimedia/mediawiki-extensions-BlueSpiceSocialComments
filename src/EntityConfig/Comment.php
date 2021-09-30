@@ -44,7 +44,9 @@ class Comment extends Text {
 	 * @return array
 	 */
 	public function addGetterDefaults() {
-		return [];
+		return [
+			'CommentPermission' => 'read',
+		];
 	}
 
 	/**
@@ -180,5 +182,37 @@ class Comment extends Text {
 	 */
 	protected function get_EntityListSpecialTimelineTypeSelected() {
 		return true;
+	}
+
+	/**
+	 *
+	 * @return bool
+	 */
+	protected function get_PermissionTitleRequired() {
+		return false;
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_CreatePermission() {
+		return 'read';
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_EditPermission() {
+		return 'read';
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function get_DeletePermission() {
+		return 'read';
 	}
 }
