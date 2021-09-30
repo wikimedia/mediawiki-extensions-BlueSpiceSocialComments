@@ -33,6 +33,7 @@ use BlueSpice\Data\Entity\IStore;
 use BlueSpice\EntityConfig;
 use BlueSpice\EntityFactory;
 use BlueSpice\Social\Entity\Text;
+use RequestContext;
 use Status;
 use User;
 
@@ -74,20 +75,31 @@ class Comment extends Text {
 	}
 
 	/**
-	 *
-	 * @param array $actions
+	 * @param string $action
 	 * @param User|null $user
-	 * @return array
+	 * @return Status
 	 */
-	public function getActions( array $actions = [], User $user = null ) {
-		$actions = parent::getActions( $actions, $user );
-		if ( isset( $action['create'] ) ) {
-			if ( !$this->hasParent() ) {
-				// Comments must have a parrent
-				unset( $actions[ 'create'] );
+	public function userCan( $action = 'read', User $user = null ) {
+		if ( !$this->hasParent() ) {
+			return Status::newFatal( wfMessage(
+				'bs-social-entity-fatalstatus-permission-permissiondeniedusercan',
+				$action
+			) );
+		}
+		if ( !$user instanceof User ) {
+			$user = RequestContext::getMain()->getUser();
+		}
+		$status = $this->getParent()->userCan( 'read', $user );
+		if ( !$status->isOK() ) {
+			return $status;
+		}
+		if ( $action === 'create' ) {
+			$status = $this->getParent()->userCan( 'comment', $user );
+			if ( !$status->isOK() ) {
+				return $status;
 			}
 		}
-		return $actions;
+		return parent::userCan( $action, $user );
 	}
 
 	/**
