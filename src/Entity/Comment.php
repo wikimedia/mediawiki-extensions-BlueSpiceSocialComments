@@ -43,7 +43,7 @@ use User;
  * @subpackage BSSocialMicroBlog
  */
 class Comment extends Text {
-	const TYPE = 'comment';
+	public const TYPE = 'comment';
 
 	/**
 	 * Returns the instance - Should not be used directly. Use mediawiki service
