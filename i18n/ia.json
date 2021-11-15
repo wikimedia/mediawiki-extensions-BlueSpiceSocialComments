@@ -7,7 +7,7 @@
 	"bs-socialcomments-desc": "Functionalitate de commentos pro BlueSpiceSocial",
 	"bs-socialcomments-type": "Commento",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Commento|Commentos}} ($1)",
-	"bs-socialcomments-header-create": "Commento",
+	"bs-socialcomments-header-create": "Responder hic…",
 	"bs-socialcomments-header": "[[User:$1|$2]] ha commentate \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Numero de commentos",
 	"echo-category-title-bs-social-comment-cat": "Commentos sur entitates sub observation",

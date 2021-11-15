@@ -7,7 +7,7 @@
 	"bs-socialcomments-desc": "Kommentarfunksjonalitet for BlueSpiceSocial",
 	"bs-socialcomments-type": "Kommentar",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Kommentar|Kommentarer}} ($1)",
-	"bs-socialcomments-header-create": "Kommentar",
+	"bs-socialcomments-header-create": "Svar her …",
 	"bs-socialcomments-header": "[[User:$1|$2]] kommenterte «[[$6|$7]]»",
 	"bs-socialcomments-var-commentcount": "Antall kommentarer",
 	"echo-category-title-bs-social-comment-cat": "Kommentarer på overvåkede entiteter",
