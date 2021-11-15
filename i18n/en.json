@@ -8,7 +8,7 @@
 	"bs-socialcomments-desc": "Comment functionality for BlueSpiceSocial",
 	"bs-socialcomments-type": "Comment",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comment|Comments}} ($1)",
-	"bs-socialcomments-header-create": "Comment",
+	"bs-socialcomments-header-create": "Answer here...",
 	"bs-socialcomments-header": "[[User:$1|$2]] commented \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Comment count",
 	"echo-category-title-bs-social-comment-cat": "Comments on watched entities",

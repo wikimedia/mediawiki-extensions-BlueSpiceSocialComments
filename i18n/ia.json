@@ -5,7 +5,7 @@
 		]
 	},
 	"bs-socialcomments-type": "Commento",
-	"bs-socialcomments-header-create": "Commento",
+	"bs-socialcomments-header-create": "Responder hic…",
 	"bs-social-notifications-comment-create": "Le usator {{GENDER:$1|$2 ha facite}} un nove commento",
 	"bs-social-notifications-email-comment-edit-subject": "Le usator {{GENDER:$1|$2 ha modificate}} un commento",
 	"bs-social-notifications-comment-delete": "Le usator {{GENDER:$1|$2 ha delite}} un commento",
