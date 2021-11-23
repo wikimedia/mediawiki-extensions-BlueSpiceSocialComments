@@ -7,7 +7,7 @@
 	"bs-socialcomments-desc": "Bemierkungs-Funktionalitéit fir BlueSpiceSocial",
 	"bs-socialcomments-type": "Bemierkung",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1| Bemierkung|Bemierkungen}} ($1)",
-	"bs-socialcomments-header-create": "Bemierkung",
+	"bs-socialcomments-header-create": "Hei äntweren...",
 	"bs-socialcomments-header": "[[User:$1|$2]] huet \"[[$6|$7]]\" kommentéiert",
 	"bs-socialcomments-var-commentcount": "Zuel vun de Bemierkungen",
 	"echo-category-title-bs-social-comment-cat": "Bemierkungen op iwwerwaachten Eenheeten",
