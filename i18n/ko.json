@@ -6,5 +6,6 @@
 	},
 	"bs-social-notification-comment-primary-link-label": "댓글 보기",
 	"bs-social-notification-comment-parentowner-label": "게시물 생성자: $1",
-	"bs-social-notification-comment-parententity-label": "게시물 보기"
+	"bs-social-notification-comment-parententity-label": "게시물 보기",
+	"bs-socialcomments-header-create": "여기에 답변하십시오..."
 }
