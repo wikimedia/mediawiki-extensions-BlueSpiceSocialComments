@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
 		]
 	},
 	"bs-socialcomments-desc": "BlueSpiceSocial için yorum işlevselliği",
 	"bs-socialcomments-type": "Yorum",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Yorum|Yorumlar}} ($1)",
-	"bs-socialcomments-header-create": "Yorum",
+	"bs-socialcomments-header-create": "Buraya cevapla...",
 	"bs-socialcomments-header": "[[User:$1|$2]], \"[[$6|$7]]\" yorumladı",
 	"bs-socialcomments-var-commentcount": "Yorum sayısı",
 	"echo-category-title-bs-social-comment-cat": "İzlenen varlıklar hakkında yorumlar",
