@@ -9,7 +9,7 @@
 	"bs-socialcomments-desc": "Fonctionnalité de commentaire pour ''BlueSpiceSocial''",
 	"bs-socialcomments-type": "Commentaire",
 	"bs-socialcomments-commenttext": "Commentaire{{PLURAL:$1||s}} ($1)",
-	"bs-socialcomments-header-create": "Répondre ici…",
+	"bs-socialcomments-header-create": "Répondre ici...",
 	"bs-socialcomments-header": "[[User:$1|$2]] a commenté « [[$6|$7]] »",
 	"bs-socialcomments-var-commentcount": "Nombre de commentaires",
 	"echo-category-title-bs-social-comment-cat": "Commentaire sur des entités suivies",
