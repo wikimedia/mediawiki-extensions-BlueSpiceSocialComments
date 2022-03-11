@@ -6,7 +6,7 @@
 		]
 	},
 	"bs-socialcomments-type": "Коментувати",
-	"bs-socialcomments-header-create": "Коментар",
+	"bs-socialcomments-header-create": "Відповісти тут…",
 	"bs-socialcomments-desc": "Функціонал коментування для BlueSpiceSocial",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Коментар|Коментарі}} ($1)",
 	"bs-socialcomments-header": "[[User:$1|$2]] {{GENDER:$1|прокоментував|прокоментувала}} «[[$6|$7]]»",
