@@ -11,5 +11,6 @@
 	"bs-socialcomments-var-commentcount": "Recuento de comentarios",
 	"bs-social-notification-comment-primary-link-label": "Ver comentario",
 	"bs-social-notification-comment-parententity-label": "Ver publicación",
-	"echo-category-title-bs-social-comment-cat": "Comentarios sobre las entidades vigiladas"
+	"echo-category-title-bs-social-comment-cat": "Comentarios sobre las entidades vigiladas",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentario|Comentarios}} ($1)"
 }
