@@ -38,5 +38,6 @@
 	"bs-social-notifications-comment-owner-edit-bundle": "Reacties op uw bericht werden {{PLURAL:$1|$1}} keer bewerkt",
 	"bs-social-notification-comment-primary-link-label": "Bekijk reactie",
 	"bs-social-notification-comment-parentowner-label": "Plaatser van bericht: $1",
-	"bs-social-notification-comment-parententity-label": "Bericht bekijken"
+	"bs-social-notification-comment-parententity-label": "Bericht bekijken",
+	"bs-socialcomments-desc": "Reactiefunctionaliteit voor BlueSpiceSocial"
 }
