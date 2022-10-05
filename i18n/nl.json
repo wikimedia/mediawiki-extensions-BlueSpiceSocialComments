@@ -5,6 +5,7 @@
 			"Romaine"
 		]
 	},
+	"bs-socialcomments-desc": "Reactiefunctionaliteit voor BlueSpiceSocial",
 	"bs-socialcomments-type": "Opmerking",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Opmerking|Opmerkingen}} ($1)",
 	"bs-socialcomments-header-create": "Hier antwoorden…",
