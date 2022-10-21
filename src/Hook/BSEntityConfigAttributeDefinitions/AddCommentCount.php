@@ -3,10 +3,10 @@
 namespace BlueSpice\Social\Comments\Hook\BSEntityConfigAttributeDefinitions;
 
 use BlueSpice\Data\Entity\Schema;
-use BlueSpice\Data\FieldType;
 use BlueSpice\Hook\BSEntityConfigAttributeDefinitions;
 use BlueSpice\Social\Comments\EntityConfig\Comment;
 use BlueSpice\Social\EntityConfig;
+use MWStake\MediaWiki\Component\DataStore\FieldType;
 
 /**
  * Adds commentcount to the entity attribute definitions
