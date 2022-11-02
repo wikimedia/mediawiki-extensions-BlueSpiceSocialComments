@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"ديفيد"
 		]
 	},
 	"bs-socialcomments-desc": "وظيفة التعليق لBlueSpiceSocial",
 	"bs-socialcomments-type": "تعليق",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|تعليق|تعليقات}} ($1)",
-	"bs-socialcomments-header-create": "تعليق",
+	"bs-socialcomments-header-create": "أجب هنا ...",
 	"bs-socialcomments-header": "[[User:$1|$2]] علق \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "عدد التعليقات",
 	"echo-category-title-bs-social-comment-cat": "التعليقات على الكيانات المراقبة",
