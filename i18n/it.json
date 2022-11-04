@@ -6,6 +6,7 @@
 		]
 	},
 	"bs-socialcomments-type": "Commento",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Commento|Commenti}} ($1)",
 	"bs-socialcomments-header-create": "Rispondi qui...",
 	"bs-socialcomments-header": "[[User:$1|$2]] ha commentato \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Conteggio commenti",
@@ -15,5 +16,9 @@
 	"bs-social-notifications-email-comment-create-body": "Utente {{GENDER:$1| $2 ha commentato}} su un post di $3 con il seguente testo:\n$4",
 	"bs-social-notifications-web-comment-create-body": "Utente {{GENDER:$1|$2 ha commentato}} su un post di $3",
 	"bs-social-notifications-comment-edit": "Utente {{GENDER:$1|$2 ha modificato}} un commento",
+	"bs-social-notifications-email-comment-edit-subject": "Utente {{GENDER:$1|$2 ha modificato}} un commento",
+	"bs-social-notifications-email-comment-edit-body": "Utente {{GENDER:$1|$2 modificato}} un commento su un post di $3 . Il nuovo commento è:\n $4",
+	"bs-social-notifications-comment-delete": "Utente {{GENDER:$1|$2 ha cancellato}} un commento",
+	"bs-social-notifications-email-comment-delete-subject": "Utente {{GENDER:$1|$2 ha cancellato}} un commento",
 	"bs-social-notification-comment-primary-link-label": "Visualizza commento"
 }
