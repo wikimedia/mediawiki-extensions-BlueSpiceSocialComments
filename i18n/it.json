@@ -20,5 +20,11 @@
 	"bs-social-notifications-email-comment-edit-body": "Utente {{GENDER:$1|$2 modificato}} un commento su un post di $3 . Il nuovo commento è:\n $4",
 	"bs-social-notifications-comment-delete": "Utente {{GENDER:$1|$2 ha cancellato}} un commento",
 	"bs-social-notifications-email-comment-delete-subject": "Utente {{GENDER:$1|$2 ha cancellato}} un commento",
+	"bs-social-notifications-web-comment-owner-edit-body": "Utente {{GENDER:$1|$2 ha modificato}} un commento sul tuo post",
+	"bs-social-notifications-comment-owner-delete": "Utente {{GENDER:$1|$2 ha cancellato}} un commento sul tuo post",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Utente {{GENDER:$1|$2 ha cancellato}} un commento sul tuo post",
+	"bs-social-notifications-email-comment-owner-delete-body": "Utente {{GENDER:$1|$2 ha modificato}} un commento sul tuo post",
+	"bs-social-notifications-web-comment-owner-delete-body": "Utente {{GENDER:$1|$2 ha cancellato}} un commento sul tuo post",
+	"bs-social-notifications-comment-owner-edit-bundle": "I commenti al tuo post sono stati modificati {{PLURAL:$1|$1 volta| $1 volte}}",
 	"bs-social-notification-comment-primary-link-label": "Visualizza commento"
 }
