@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"bs-social-notifications-email-comment-create-body": "{{GENDER:$1|המשתמש $2 העיר|המשתמשת $2 העירה}} על רשומה מאת $3 עם הטקסט הבא:\n$4",
+	"bs-social-notifications-web-comment-create-body": "{{GENDER:$1|המשתמש $2 הגיב|המשתמשת $2 הגיבה}} לרשומה מאת $3",
+	"bs-social-notifications-email-comment-edit-body": "{{GENDER:$1|המשתמש $2 ערך|המשתמשת $2 ערכה}} תגובה לרשומה מאת $3 התגובה החדשה היא:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "{{GENDER:$1|המשתמש $2 ערך|המשתמשת $2 ערכה}} תגובה לרשומה מאת $3",
+	"bs-social-notifications-email-comment-delete-body": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה מאת $3",
+	"bs-social-notifications-web-comment-delete-body": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה מאת $3",
+	"bs-social-notifications-comment-owner-create": "{{GENDER:$1|המשתמש $2 כתב|המשתמשת $2 כתבה}} תגובה חדשה על רשומה שלך",
+	"bs-social-notifications-email-comment-owner-create-subject": "{{GENDER:$1|המשתמש $2 כתב|המשתמשת $2 כתבה}} תגובה חדשה לרשומה שלך",
+	"bs-social-notifications-email-comment-owner-create-body": "{{GENDER:$1|המשתמש $2 העיר|המשתמשת $2 העירה}} על רשומה שלך עם הטקסט הבא:\n$3",
+	"bs-social-notifications-comment-owner-edit": "{{GENDER:$1|המשתמש $2 ערך|המשתמשת $2 ערכה}} תגובה לרשומה שלך",
+	"bs-social-notifications-email-comment-owner-edit-subject": "{{GENDER:$1|המשתמש $2 ערך|המשתמשת $2 ערכה}} תגובה לרשומה שלך",
+	"bs-social-notifications-web-comment-owner-edit-body": "{{GENDER:$1|המשתמש $2 ערך|המשתמשת $2 ערכה}} תגובה לרשומה שלך",
+	"bs-social-notifications-comment-owner-delete": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה שלך",
+	"bs-social-notifications-email-comment-owner-delete-body": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה שלך",
+	"bs-social-notifications-web-comment-owner-delete-body": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה שלך",
+	"bs-social-notifications-comment-owner-edit-bundle": "תגובות לפוסט שלך נערכו {{PLURAL:$1|פעם אחת|פעמיים|$1 פעמים}}",
+	"bs-social-notification-comment-parentowner-label": "יוצר הרשומה: $1",
+	"bs-social-notification-comment-parententity-label": "הצגת הרשומה"
+}
