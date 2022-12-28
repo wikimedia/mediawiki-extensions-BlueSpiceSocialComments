@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dejan Savuljesku",
-			"Patric Wirth"
+			"Patric Wirth",
+			"Amire80"
 		]
 	},
 	"bs-socialcomments-desc": "{{desc|name=BlueSpiceSocialComments}}",
@@ -14,7 +15,7 @@
 	"echo-category-title-bs-social-comment-cat": "Checkbox label for mail and wiki notification subscription for comments on entities user watches",
 	"bs-social-notifications-comment-create": "Short message when new comment is created. $1 - username, $2 - user realname",
 	"bs-social-notifications-email-comment-create-subject": "Email subject when new comment is created. $1 - username, $2 - user realname",
-	"bs-social-notifications-email-comment-create-body": "Email body message when new comment is created. $1 - username, $2 - user realname, $3 - original post owner realname, $4 - Text of the comment",
+	"bs-social-notifications-email-comment-create-body": "Email body message when new comment is created.\n* $1 - username\n* $2 - user's real name\n* $3 - original post owner's real name\n* $4 - Text of the comment",
 	"bs-social-notifications-web-comment-create-body": "Web message when comment is created. $1 - username, $2 - user realname, $3 - original post owner realname",
 	"bs-social-notifications-comment-edit": "Short message when comment is edited. $1 - username, $2 - user realname",
 	"bs-social-notifications-email-comment-edit-subject": "Email subject when comment is edited. $1 - username, $2 - user realname",
