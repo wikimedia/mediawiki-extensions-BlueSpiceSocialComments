@@ -31,5 +31,10 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpiceSocialComments"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
