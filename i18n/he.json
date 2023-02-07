@@ -21,5 +21,7 @@
 	"bs-social-notifications-web-comment-owner-delete-body": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה שלך",
 	"bs-social-notifications-comment-owner-edit-bundle": "תגובות לפוסט שלך נערכו {{PLURAL:$1|פעם אחת|פעמיים|$1 פעמים}}",
 	"bs-social-notification-comment-parentowner-label": "יוצר הרשומה: $1",
-	"bs-social-notification-comment-parententity-label": "הצגת הרשומה"
+	"bs-social-notification-comment-parententity-label": "הצגת הרשומה",
+	"bs-socialcomments-type": "תגובה",
+	"bs-social-notification-comment-primary-link-label": "צפייה בתגובה"
 }
