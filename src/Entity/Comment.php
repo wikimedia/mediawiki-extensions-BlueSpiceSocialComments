@@ -33,6 +33,7 @@ use BlueSpice\Data\Entity\IStore;
 use BlueSpice\EntityConfig;
 use BlueSpice\EntityFactory;
 use BlueSpice\Social\Entity\Text;
+use MediaWiki\MediaWikiServices;
 use RequestContext;
 use Status;
 use User;
@@ -57,11 +58,12 @@ class Comment extends Text {
 	public static function newFromFactory( \stdClass $data, EntityConfig $config,
 		IStore $store, EntityFactory $entityFactory = null ) {
 		if ( !$entityFactory ) {
-			$entityFactory = Services::getInstance()->getService(
+			$entityFactory = MediaWikiServices::getInstance()->getService(
 				'BSEntityFactory'
 			);
 		}
-		$instance = new static( $data, $config, $entityFactory, $store );
+		$parserFactory = MediaWikiServices::getInstance()->getParserFactory();
+		$instance = new static( $data, $config, $entityFactory, $store, $parserFactory );
 		// Dealing with currupted entities, whenever a proccess or - more likely
 		// a human breaks stuff by deleting, moving, protecting... etc. source
 		// titles
