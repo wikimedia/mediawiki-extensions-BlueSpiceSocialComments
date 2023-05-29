@@ -23,5 +23,20 @@
 	"bs-social-notification-comment-parentowner-label": "יוצר הרשומה: $1",
 	"bs-social-notification-comment-parententity-label": "הצגת הרשומה",
 	"bs-socialcomments-type": "תגובה",
-	"bs-social-notification-comment-primary-link-label": "צפייה בתגובה"
+	"bs-social-notification-comment-primary-link-label": "צפייה בתגובה",
+	"bs-socialcomments-desc": "פונקציונליות תגובות עבור BlueSpiceSocial",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|תגובה|תגובות}} ($1)",
+	"bs-socialcomments-header-create": "נא להשיב פה...",
+	"bs-socialcomments-header": "[[User:$1|$2]] {{GENDER:$1|הגיב|הגיבה}} \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "ספירת תגובות",
+	"echo-category-title-bs-social-comment-cat": "תגובות על ישויות שנצפו",
+	"bs-social-notifications-comment-create": "{{GENDER:$1|משתמש $2 עשה|משתמשת $2 עשתה}} תגובה חדשה",
+	"bs-social-notifications-email-comment-create-subject": "{{GENDER:$1|משתמש $2 עשה|משתמשת $2 עשתה}} תגובה חדשה",
+	"bs-social-notifications-comment-edit": "{{GENDER:$1|משתמש $2 ערך|משתמשת $2 ערכה}} תגובה",
+	"bs-social-notifications-email-comment-edit-subject": "{{GENDER:$1|משתמש $2 ערך|משתמשת $2 ערכה}} תגובה",
+	"bs-social-notifications-comment-delete": "{{GENDER:$1|משתמש $2 מחק|משתמשת $2 מחקה}} תגובה",
+	"bs-social-notifications-email-comment-delete-subject": "{{GENDER:$1|משתמש $2 מחק|משתמשת $2 מחקה}} תגובה",
+	"bs-social-notifications-web-comment-owner-create-body": "{{GENDER:$1|משתמש $2 הגיב|משתמשת $2 הגיבה}} על רשומה שלך",
+	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|משתמש $2 ערך|משתמשת $2 ערכה}} תגובה על רשומה שלך. התגובה החדשה היא:\n$3",
+	"bs-social-notifications-email-comment-owner-delete-subject": "{{GENDER:$1|המשתמש $2 מחק|המשתמשת $2 מחקה}} תגובה לרשומה שלך"
 }
