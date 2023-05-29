@@ -3,7 +3,8 @@
 		"authors": [
 			"DiegoAmbrocio",
 			"Fitoschido",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"No se"
 		]
 	},
 	"bs-socialcomments-type": "Comentario",
@@ -12,5 +13,6 @@
 	"bs-socialcomments-var-commentcount": "Recuento de comentarios",
 	"echo-category-title-bs-social-comment-cat": "Comentarios sobre las entidades vigiladas",
 	"bs-social-notification-comment-primary-link-label": "Ver comentario",
-	"bs-social-notification-comment-parententity-label": "Ver publicación"
+	"bs-social-notification-comment-parententity-label": "Ver publicación",
+	"bs-socialcomments-desc": "Funcionalidad de comentarios para BlueSpiceSocial"
 }
