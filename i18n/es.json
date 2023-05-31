@@ -3,9 +3,11 @@
 		"authors": [
 			"Fitoschido",
 			"MarcoAurelio",
-			"DiegoAmbrocio"
+			"DiegoAmbrocio",
+			"No se"
 		]
 	},
+	"bs-socialcomments-desc": "Funcionalidad de comentarios para BlueSpiceSocial",
 	"bs-socialcomments-type": "Comentario",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentario|Comentarios}} ($1)",
 	"bs-socialcomments-header-create": "Respuesta aquí...",
