@@ -37,6 +37,6 @@
 	"bs-social-notifications-web-comment-owner-delete-body": "{{GENDER:$1|Uporabnik $2 je izbrisal|Uporabnica $2 je izbrisala|Uporabnik_ca $2 je izbrisal_a}} komentar pri vaši objavi",
 	"bs-social-notifications-comment-owner-edit-bundle": "Komentarji pri vaši objavi so bili urejeni {{PLURAL:$1|enkrat|dvakrat|$1-krat}}",
 	"bs-social-notification-comment-primary-link-label": "Ogled komentarja",
-	"bs-social-notification-comment-parentowner-label": "Ustvarjalec objave: $1",
+	"bs-social-notification-comment-parentowner-label": "Ustvaritelj objave: $1",
 	"bs-social-notification-comment-parententity-label": "Ogled objave"
 }
