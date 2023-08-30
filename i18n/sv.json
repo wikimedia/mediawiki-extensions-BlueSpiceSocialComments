@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Bengtsson96"
 		]
 	},
 	"bs-socialcomments-desc": "Kommentarfunktionalitet för BlueSpiceSocial",
 	"bs-socialcomments-type": "Kommentar",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Kommentar|Kommentarer}} ($1)",
-	"bs-socialcomments-header-create": "Kommentera",
+	"bs-socialcomments-header-create": "Svara här …",
 	"bs-socialcomments-header": "[[User:$1|$2]] kommenterade \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Antal kommentarer",
 	"echo-category-title-bs-social-comment-cat": "Kommentarer på bevakade entiteter",
