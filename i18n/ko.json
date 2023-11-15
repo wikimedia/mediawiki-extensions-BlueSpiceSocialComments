@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Ykhwong",
-			"Yunbj"
+			"Yunbj",
+			"밥풀떼기"
 		]
 	},
-	"bs-socialcomments-type": "댓글",
+	"bs-socialcomments-type": "의견",
 	"bs-socialcomments-header-create": "여기에 답변하십시오...",
 	"bs-socialcomments-var-commentcount": "댓글 숫자",
 	"echo-category-title-bs-social-comment-cat": "감시중인 엔티티에 대한 댓글",
