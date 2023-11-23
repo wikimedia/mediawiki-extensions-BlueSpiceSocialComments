@@ -37,5 +37,6 @@
 	"bs-social-notifications-comment-owner-edit-bundle": "תגובות לפוסט שלך נערכו {{PLURAL:$1|פעם אחת|פעמיים|$1 פעמים}}",
 	"bs-social-notification-comment-primary-link-label": "צפייה בתגובה",
 	"bs-social-notification-comment-parentowner-label": "יוצר הרשומה: $1",
-	"bs-social-notification-comment-parententity-label": "הצגת הרשומה"
+	"bs-social-notification-comment-parententity-label": "הצגת הרשומה",
+	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|משתמש $2 ערך|משתמשת $2 ערכה}} תגובה על רשומה שלך. התגובה החדשה היא:\n$3"
 }
