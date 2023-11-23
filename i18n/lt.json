@@ -37,5 +37,6 @@
 	"bs-social-notifications-comment-owner-edit-bundle": "Komentarai po jūsų įrašu pakeisti {{PLURAL:$1|$1 kartą|$1 kartus}}",
 	"bs-social-notification-comment-primary-link-label": "Žiūrėti komentarą",
 	"bs-social-notification-comment-parentowner-label": "Įrašo kūrėjas: $1",
-	"bs-social-notification-comment-parententity-label": "Žiūrėti įrašą"
+	"bs-social-notification-comment-parententity-label": "Žiūrėti įrašą",
+	"bs-social-notifications-email-comment-owner-edit-body": "Naudotojas {{GENDER:$1|$2 pakeitė}} komentarą po jūsų įrašu. Naujas komentaras:\n$3"
 }
