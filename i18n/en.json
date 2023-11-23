@@ -30,7 +30,7 @@
 	"bs-social-notifications-web-comment-owner-create-body": "User {{GENDER:$1|$2 commented}} on your post",
 	"bs-social-notifications-comment-owner-edit": "User {{GENDER:$1|$2 edited}} a comment on your post",
 	"bs-social-notifications-email-comment-owner-edit-subject": "User {{GENDER:$1|$2 edited}} a comment on your post",
-	"bs-social-notifications-email-comment-owner-edit-body": "User {{GENDER:$1|$2 edited}} a comment on on your post. New comment is:\n$3",
+	"bs-social-notifications-email-comment-owner-edit-body": "User {{GENDER:$1|$2 edited}} a comment on your post. New comment is:\n$3",
 	"bs-social-notifications-web-comment-owner-edit-body": "User {{GENDER:$1|$2 edited}} a comment on your post",
 	"bs-social-notifications-comment-owner-delete": "User {{GENDER:$1|$2 deleted}} a comment on your post",
 	"bs-social-notifications-email-comment-owner-delete-subject": "User {{GENDER:$1|$2 deleted}} a comment on your post",
