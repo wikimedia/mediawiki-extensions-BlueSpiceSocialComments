@@ -7,7 +7,7 @@
 	"bs-socialcomments-desc": "Funzione de commende pe BlueSpiceSocial",
 	"bs-socialcomments-type": "Commende",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Commende}} ($1)",
-	"bs-socialcomments-header-create": "Commende",
+	"bs-socialcomments-header-create": "Respunne aqquà...",
 	"bs-socialcomments-header": "[[User:$1|$2]] ave commendate \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Condegge de le commende",
 	"echo-category-title-bs-social-comment-cat": "Commende sus a le endità condrollate",
