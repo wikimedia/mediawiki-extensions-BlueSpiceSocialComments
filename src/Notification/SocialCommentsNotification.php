@@ -2,6 +2,7 @@
 
 namespace BlueSpice\Social\Comments\Notification;
 
+use BlueSpice\Social\Entity;
 use BlueSpice\Social\Notifications\SocialTextNotification;
 use MediaWiki\MediaWikiServices;
 use Message;
@@ -27,6 +28,7 @@ class SocialCommentsNotification extends SocialTextNotification {
 		$this->getParentEntityInfo();
 
 		if ( $this->parentEntity ) {
+			$topicsSP = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( 'Topics' );
 			$params['parentownerrealname'] = $this->parentEntityOwnerRealname;
 			$params['secondary-links'] = [
 				'parentowner' => [
@@ -34,7 +36,7 @@ class SocialCommentsNotification extends SocialTextNotification {
 					'label-params' => [ $this->parentEntityOwnerRealname ]
 				],
 				'parententity' => [
-					'url' => $this->parentEntity->getTitle()->getFullURL()
+					'url' => $topicsSP->getPageTitle( $this->parentEntity->get( Entity::ATTR_ID ) )->getFullURL(),
 				]
 			];
 		}
@@ -62,6 +64,20 @@ class SocialCommentsNotification extends SocialTextNotification {
 		}
 
 		return $usersToSkip;
+	}
+
+	/**
+	 *
+	 * @return \Title|null
+	 */
+	public function getTitle() {
+		$title = $this->entity->getTitle();
+		if ( $title instanceof \Title && $title->exists() ) {
+			$topicsSP = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( 'Topics' );
+			$title = $topicsSP->getPageTitle( $this->entity->get( Entity::ATTR_ID ) );
+			return $title;
+		}
+		return null;
 	}
 
 	/**
