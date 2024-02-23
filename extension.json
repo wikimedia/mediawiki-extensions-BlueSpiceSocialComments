@@ -9,7 +9,8 @@
 		"MediaWiki": ">= 1.39.0",
 		"extensions": {
 			"BlueSpiceFoundation": ">= 4.3",
-			"BlueSpiceSocial": ">= 4.3"
+			"BlueSpiceSocial": ">= 4.3",
+			"BlueSpiceSocialTopics": ">= 4.4"
 		}
 	},
 	"type": "bluespice",
