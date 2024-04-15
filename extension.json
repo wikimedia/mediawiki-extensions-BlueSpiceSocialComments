@@ -26,10 +26,25 @@
 			},
 			"EntityRegistry": {
 				"comment": "\\BlueSpice\\Social\\Comments\\EntityConfig\\Comment"
-			},
-			"NotificationRegistrationFunctions": [
-				"\\BlueSpice\\Social\\Comments\\Notification\\Registrator::registerNotifications"
-			]
+			}
+		},
+		"Notifications": {
+			"Events": {
+				"bs-social-comment-event": {
+					"spec": {
+						"class": "\\BlueSpice\\Social\\Comments\\Event\\SocialCommentEvent",
+						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
+					},
+					"buckets": [ "content-high-freq" ]
+				},
+				"bs-social-comment-own-event": {
+					"spec": {
+						"class": "\\BlueSpice\\Social\\Comments\\Event\\SocialCommentOwnerEvent",
+						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
+					},
+					"buckets": [ "personal" ]
+				}
+			}
 		}
 	},
 	"MessagesDirs": {

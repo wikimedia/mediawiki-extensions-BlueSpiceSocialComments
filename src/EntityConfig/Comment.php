@@ -139,8 +139,8 @@ class Comment extends Text {
 	 */
 	protected function get_NotificationObjectClass() {
 		return [
-			\BlueSpice\Social\Comments\Notification\SocialCommentsNotification::class,
-			\BlueSpice\Social\Comments\Notification\SocialCommentsOwnerNotification::class
+			'bs-social-comment-event',
+			'bs-social-comment-own-event'
 		];
 	}
 
