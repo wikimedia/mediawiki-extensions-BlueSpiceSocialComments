@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"bs-social-comment-event-create-desc": "Нови коментар",
+	"bs-social-comment-event-edit-desc": "Коментар измењен",
+	"bs-social-comment-event-delete-desc": "Коментар обрисан"
+}

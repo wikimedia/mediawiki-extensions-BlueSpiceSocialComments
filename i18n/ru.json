@@ -6,12 +6,12 @@
 			"Pacha Tchernof"
 		]
 	},
-	"bs-socialcomments-desc": "Функциональность комментариев для BlueSpiceSocial",
-	"bs-socialcomments-type": "Комментарий",
-	"bs-socialcomments-commenttext": "{{PLURAL:$1|Комментарий|Комментариев}} ($1)",
-	"bs-socialcomments-header-create": "Ответ здесь…",
-	"bs-socialcomments-header": "[[User:$1|$2]] прокомментировал «[[$6|$7]]»",
-	"bs-social-notification-comment-primary-link-label": "Посмотреть комментарий",
-	"bs-social-notification-comment-parentowner-label": "Автор сообщения: $1",
-	"bs-social-notification-comment-parententity-label": "Посмотреть сообщение"
+	"bs-socialcomments-desc": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432 \u0434\u043b\u044f BlueSpiceSocial",
+	"bs-socialcomments-type": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439|\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432}} ($1)",
+	"bs-socialcomments-header-create": "\u041e\u0442\u0432\u0435\u0442 \u0437\u0434\u0435\u0441\u044c\u2026",
+	"bs-socialcomments-header": "[[User:$1|$2]] \u043f\u0440\u043e\u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043b \u00ab[[$6|$7]]\u00bb",
+	"bs-social-notification-comment-primary-link-label": "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439",
+	"bs-social-notification-comment-parentowner-label": "\u0410\u0432\u0442\u043e\u0440 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f: $1",
+	"bs-social-notification-comment-parententity-label": "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435"
 }
