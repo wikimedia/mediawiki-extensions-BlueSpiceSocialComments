@@ -39,5 +39,17 @@
 	"bs-social-notifications-comment-owner-edit-bundle": "Comments on your post were edited {{PLURAL:$1|$1 time|$1 times}}",
 	"bs-social-notification-comment-primary-link-label": "View comment",
 	"bs-social-notification-comment-parentowner-label": "Post creator: $1",
-	"bs-social-notification-comment-parententity-label": "View post"
+	"bs-social-notification-comment-parententity-label": "View post",
+	"bs-social-comment-event-create": "{{GENDER:$1|left a comment}} on a page you are watching",
+	"bs-social-comment-event-create-desc": "New comment",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|left a comment}} on your post",
+	"bs-social-comment-event-own-create-desc": "New response to your post",
+	"bs-social-comment-event-edit": "{{GENDER:$1|edited a comment}} on a page you are watching",
+	"bs-social-comment-event-edit-desc": "Comment edited",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|edited a comment}} on your post",
+	"bs-social-comment-event-own-edit-desc": "Comment on your post edited",
+	"bs-social-comment-event-delete": "{{GENDER:$1|deleted a comment}} on a page you are watching",
+	"bs-social-comment-event-delete-desc": "Comment deleted",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|deleted a comment}} on your post",
+	"bs-social-comment-event-own-delete-desc": "Comment on your post deleted"
 }

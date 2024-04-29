@@ -3,14 +3,14 @@
 		"authors": [
 			"Ykhwong",
 			"Yunbj",
-			"밥풀떼기"
+			"\ubc25\ud480\ub5bc\uae30"
 		]
 	},
-	"bs-socialcomments-type": "의견",
-	"bs-socialcomments-header-create": "여기에 답변하십시오...",
-	"bs-socialcomments-var-commentcount": "댓글 숫자",
-	"echo-category-title-bs-social-comment-cat": "감시중인 엔티티에 대한 댓글",
-	"bs-social-notification-comment-primary-link-label": "댓글 보기",
-	"bs-social-notification-comment-parentowner-label": "게시물 생성자: $1",
-	"bs-social-notification-comment-parententity-label": "게시물 보기"
+	"bs-socialcomments-type": "\uc758\uacac",
+	"bs-socialcomments-header-create": "\uc5ec\uae30\uc5d0 \ub2f5\ubcc0\ud558\uc2ed\uc2dc\uc624...",
+	"bs-socialcomments-var-commentcount": "\ub313\uae00 \uc22b\uc790",
+	"echo-category-title-bs-social-comment-cat": "\uac10\uc2dc\uc911\uc778 \uc5d4\ud2f0\ud2f0\uc5d0 \ub300\ud55c \ub313\uae00",
+	"bs-social-notification-comment-primary-link-label": "\ub313\uae00 \ubcf4\uae30",
+	"bs-social-notification-comment-parentowner-label": "\uac8c\uc2dc\ubb3c \uc0dd\uc131\uc790: $1",
+	"bs-social-notification-comment-parententity-label": "\uac8c\uc2dc\ubb3c \ubcf4\uae30"
 }
