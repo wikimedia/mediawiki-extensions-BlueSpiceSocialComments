@@ -5,6 +5,6 @@
 			"Omotecho"
 		]
 	},
-	"bs-socialcomments-var-commentcount": "\u30b3\u30e1\u30f3\u30c8\u6570",
-	"echo-category-title-bs-social-comment-cat": "\u30a6\u30a9\u30c3\u30c1\u4e2d\u306e\u9805\u76ee\u306b\u95a2\u3059\u308b\u30b3\u30e1\u30f3\u30c8"
+	"bs-socialcomments-var-commentcount": "コメント数",
+	"echo-category-title-bs-social-comment-cat": "ウォッチ中の項目に関するコメント"
 }
