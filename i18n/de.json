@@ -3,6 +3,7 @@
 		"authors": [
 			"Mglaser",
 			"Patric Wirth",
+			"TomatoCake",
 			"Umherirrender"
 		]
 	},
@@ -11,5 +12,7 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Kommentar|Kommentare}} ($1)",
 	"bs-socialcomments-header-create": "Antworte hier …",
 	"bs-socialcomments-header": "[[User:$1|$2]] kommentierte \"[[$6|$7]]\"",
-	"bs-socialcomments-var-commentcount": "Anzahl Kommentare"
+	"bs-socialcomments-var-commentcount": "Anzahl Kommentare",
+	"bs-social-comment-event-create-desc": "Neuer Kommentar",
+	"bs-social-comment-event-delete-desc": "Kommentar gelöscht"
 }

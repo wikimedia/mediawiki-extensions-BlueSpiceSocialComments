@@ -19,6 +19,7 @@
 	"bs-social-comment-event-own-create": "{{GENDER:$1|dejó un comentario}} en su publicación",
 	"bs-social-comment-event-own-create-desc": "Nueva respuesta a tu publicación.",
 	"bs-social-comment-event-edit": "{{GENDER:$1|editaste un comentario}} en una página que estás viendo",
+	"bs-social-comment-event-edit-desc": "Comentario editado",
 	"bs-social-comment-event-own-edit": "{{GENDER:$1|editaste un comentario}} en tu publicación",
 	"bs-social-comment-event-own-edit-desc": "Comentario en tu publicación editado",
 	"bs-social-comment-event-delete": "{{GENDER:$1| eliminó un comentario}} en una página que estás viendo",
