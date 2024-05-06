@@ -10,5 +10,17 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Opmerking|Opmerkingen}} ($1)",
 	"bs-socialcomments-header-create": "Hier antwoorden…",
 	"bs-socialcomments-header": "[[User:$1|$2]] reageerde op \"[[$6|$7]]\"",
-	"bs-socialcomments-var-commentcount": "Aantal reacties"
+	"bs-socialcomments-var-commentcount": "Aantal reacties",
+	"bs-social-comment-event-create": "{{GENDER:$1|heeft een reactie achtergelaten}} op een pagina die u volgt",
+	"bs-social-comment-event-create-desc": "Nieuwe reactie",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|heeft een reactie achtergelaten}} op uw artikel",
+	"bs-social-comment-event-own-create-desc": "Nieuwe reactie op uw artikel",
+	"bs-social-comment-event-edit": "{{GENDER:$1|heeft een reactie bewerkt}} op een pagina die u volgt",
+	"bs-social-comment-event-edit-desc": "Reactie bewerkt",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|heeft een reactie bewerkt}} op uw artikel",
+	"bs-social-comment-event-own-edit-desc": "Reactie op uw artikel bewerkt",
+	"bs-social-comment-event-delete": "{{GENDER:$1|heeft een reactie verwijderd}} op een pagina die u volgt",
+	"bs-social-comment-event-delete-desc": "Reactie verwijderd",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|heeft een reactie verwijderd}} op uw artikel",
+	"bs-social-comment-event-own-delete-desc": "Reactie op uw artikel verwijderd"
 }
