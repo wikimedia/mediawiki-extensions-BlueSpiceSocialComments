@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eleassar",
-			"Upwinxp"
+			"Upwinxp",
+			"Pipi Ferry"
 		]
 	},
 	"bs-socialcomments-desc": "Funkcionalnost komentiranja za BlueSpiceSocial",
@@ -16,11 +17,11 @@
 	"bs-social-comment-event-own-create": "{{GENDER:$1|je pustil komentar|je pustila komentar|je pustil_a komentar}} pri vaši objavi",
 	"bs-social-comment-event-own-create-desc": "Nov odgovor na vašo objavo",
 	"bs-social-comment-event-edit": "{{GENDER:$1|je uredil komentar|je uredila komentar|je uredil_a komentar}} na strani, ki jo opazujete",
-	"bs-social-comment-event-edit-desc": "Ureditev komentarja",
+	"bs-social-comment-event-edit-desc": "Komentar urejen",
 	"bs-social-comment-event-own-edit": "{{GENDER:$1|je uredil komentar|je uredila komentar|je uredil_a komentar}} pri vaši objavi",
 	"bs-social-comment-event-own-edit-desc": "Ureditev komentarja pri vaši objavi",
 	"bs-social-comment-event-delete": "{{GENDER:$1|je izbrisal komentar|je izbrisala komentar|je izbrisal_a komentar}} na strani, ki jo opazujete",
-	"bs-social-comment-event-delete-desc": "Izbris komentarja",
+	"bs-social-comment-event-delete-desc": "Komentar izbrisan",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|je izbrisal komentar|je izbrisala komentar|je izbrisal_a komentar}} pri vaši objavi",
 	"bs-social-comment-event-own-delete-desc": "Izbris komentarja pri vaši objavi"
 }
