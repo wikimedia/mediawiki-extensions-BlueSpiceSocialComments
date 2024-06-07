@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Justman10000",
 			"Mglaser",
 			"Patric Wirth",
 			"TomatoCake",
@@ -14,5 +15,9 @@
 	"bs-socialcomments-header": "[[User:$1|$2]] kommentierte \"[[$6|$7]]\"",
 	"bs-socialcomments-var-commentcount": "Anzahl Kommentare",
 	"bs-social-comment-event-create-desc": "Neuer Kommentar",
-	"bs-social-comment-event-delete-desc": "Kommentar gelöscht"
+	"bs-social-comment-event-own-create-desc": "Neue Antwort auf deinen Beitrag",
+	"bs-social-comment-event-edit-desc": "Kommentar bearbeitet",
+	"bs-social-comment-event-own-edit-desc": "Kommentar zu deinem Beitrag bearbeitet",
+	"bs-social-comment-event-delete-desc": "Kommentar gelöscht",
+	"bs-social-comment-event-own-delete-desc": "Kommentar zu deinem Beitrag gelöscht"
 }
