@@ -71,7 +71,7 @@ class SocialCommentEvent extends SocialTextEvent {
 	 * @inheritDoc
 	 */
 	public function getMessage( IChannel $forChannel ): Message {
-		return Message::newFromKey( "bs-social-comment-event$this->action" )->params( $this->getAgent()->getName() );
+		return Message::newFromKey( "bs-social-comment-event-$this->action" )->params( $this->getAgent()->getName() );
 	}
 
 	/**

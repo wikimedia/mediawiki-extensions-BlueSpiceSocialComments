@@ -23,5 +23,12 @@
 	"bs-social-comment-event-delete": "Notification message when somebody deletes a comment\n$1 - agent",
 	"bs-social-comment-event-delete-desc": "Event type label",
 	"bs-social-comment-event-own-delete": "Notification message when somebody deletes a comment on a post created by the user receiving the notification\n$1 - agent",
-	"bs-social-comment-event-own-delete-desc": "Event type label"
+	"bs-social-comment-event-own-delete-desc": "Event type label",
+	"bs-social-notification-comment-primary-link-label": "Label for the email primary link button",
+	"bs-social-comment-for-user-event-create": "Notification message when somebody creates a comment on user's page\n$1 - agent",
+	"bs-social-comment-for-user-event-create-desc": "Event type label",
+	"bs-social-comment-for-user-event-edit": "Notification message when somebody edits a comment on user's page\n$1 - agent",
+	"bs-social-comment-for-user-event-edit-desc": "Event type label",
+	"bs-social-comment-for-user-event-delete": "Notification message when somebody deletes a comment on user's page\n$1 - agent",
+	"bs-social-comment-for-user-event-delete-desc": "Event type label"
 }
