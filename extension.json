@@ -43,6 +43,13 @@
 						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
 					},
 					"buckets": [ "personal" ]
+				},
+				"bs-social-comment-for-user-event": {
+					"spec": {
+						"class": "\\BlueSpice\\Social\\Comments\\Event\\SocialCommentForUserEvent",
+						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
+					},
+					"buckets": [ "personal" ]
 				}
 			}
 		}
