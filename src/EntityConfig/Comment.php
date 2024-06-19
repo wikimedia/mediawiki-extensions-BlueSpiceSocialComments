@@ -140,8 +140,17 @@ class Comment extends Text {
 	protected function get_NotificationObjectClass() {
 		return [
 			'bs-social-comment-event',
-			'bs-social-comment-own-event'
+			'bs-social-comment-own-event',
+			'bs-social-comment-for-user-event'
 		];
+	}
+
+	/**
+	 *
+	 * @return bool
+	 */
+	protected function get_HasNotifications() {
+		return true;
 	}
 
 	/**

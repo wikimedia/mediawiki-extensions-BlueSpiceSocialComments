@@ -22,5 +22,12 @@
 	"bs-social-comment-event-delete": "{{GENDER:$1|deleted a comment}} on a page you are watching",
 	"bs-social-comment-event-delete-desc": "Comment deleted",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|deleted a comment}} on your post",
-	"bs-social-comment-event-own-delete-desc": "Comment on your post deleted"
+	"bs-social-comment-event-own-delete-desc": "Comment on your post deleted",
+	"bs-social-notification-comment-primary-link-label": "View comment",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|left a comment}} on your user page",
+	"bs-social-comment-for-user-event-create-desc": "New comment on your user page",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|edited a comment}} on your user page",
+	"bs-social-comment-for-user-event-edit-desc": "Comment on your user page edited",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|deleted a comment}} on your user page",
+	"bs-social-comment-for-user-event-delete-desc": "Comment on your user page deleted"
 }
