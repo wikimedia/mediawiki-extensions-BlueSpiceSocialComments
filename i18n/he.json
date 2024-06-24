@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Neriah"
 		]
 	},
 	"bs-socialcomments-desc": "פונקציונליות תגובות עבור BlueSpiceSocial",
@@ -21,5 +22,7 @@
 	"bs-social-comment-event-delete": "{{GENDER:$1|מחק|מחקה}} תגובה בדף {{GENDER:|שאתה|שאת}} צופה בו",
 	"bs-social-comment-event-delete-desc": "תגובה נמחקה",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|מחק|מחקה}} תגובה ברשומה שלך",
-	"bs-social-comment-event-own-delete-desc": "תגובה על רשומה שלך נמחקה"
+	"bs-social-comment-event-own-delete-desc": "תגובה על רשומה שלך נמחקה",
+	"bs-social-notification-comment-primary-link-label": "צפייה בתגובה",
+	"bs-social-comment-for-user-event-create-desc": "תגובה חדשה בדף המשתמש שלך"
 }

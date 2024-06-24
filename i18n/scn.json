@@ -6,5 +6,6 @@
 	},
 	"bs-socialcomments-type": "Cummentu",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Cummenu|Cummenti}} ($1)",
-	"bs-socialcomments-header-create": "Cummentu"
+	"bs-socialcomments-header-create": "Cummentu",
+	"bs-social-notification-comment-primary-link-label": "Talìa cummentu"
 }

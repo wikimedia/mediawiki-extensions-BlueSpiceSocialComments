@@ -9,5 +9,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Commende}} ($1)",
 	"bs-socialcomments-header-create": "Respunne aqquà...",
 	"bs-socialcomments-header": "[[User:$1|$2]] ave commendate \"[[$6|$7]]\"",
-	"bs-socialcomments-var-commentcount": "Condegge de le commende"
+	"bs-socialcomments-var-commentcount": "Condegge de le commende",
+	"bs-social-notification-comment-primary-link-label": "'Ndruche 'u commende"
 }

@@ -8,5 +8,6 @@
 	},
 	"bs-socialcomments-type": "Bình luận",
 	"bs-socialcomments-header-create": "Trả lời ở đây...",
-	"bs-socialcomments-header": "[[User:$1|$2]] đã bình luận về “[[$6|$7]]”"
+	"bs-socialcomments-header": "[[User:$1|$2]] đã bình luận về “[[$6|$7]]”",
+	"bs-social-notification-comment-primary-link-label": "Xem bình luận"
 }

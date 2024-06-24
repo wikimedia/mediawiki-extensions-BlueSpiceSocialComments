@@ -10,5 +10,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|تعليق|تعليقات}} ($1)",
 	"bs-socialcomments-header-create": "أجب هنا ...",
 	"bs-socialcomments-header": "[[User:$1|$2]] علق \"[[$6|$7]]\"",
-	"bs-socialcomments-var-commentcount": "عدد التعليقات"
+	"bs-socialcomments-var-commentcount": "عدد التعليقات",
+	"bs-social-notification-comment-primary-link-label": "إظهار التعليق"
 }

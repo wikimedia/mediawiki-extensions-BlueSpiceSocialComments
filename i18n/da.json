@@ -4,5 +4,6 @@
 			"Saederup92"
 		]
 	},
-	"bs-socialcomments-header": "[[User:$1|$2]] skrev en kommentar til \"[[$6|$7]]\""
+	"bs-socialcomments-header": "[[User:$1|$2]] skrev en kommentar til \"[[$6|$7]]\"",
+	"bs-social-notification-comment-primary-link-label": "Vis kommentar"
 }

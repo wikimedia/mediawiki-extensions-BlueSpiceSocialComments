@@ -15,5 +15,6 @@
 	"bs-social-comment-event-create-desc": "Новый комментарий",
 	"bs-social-comment-event-edit-desc": "Комментарий изменён",
 	"bs-social-comment-event-delete-desc": "Комментарий удалён",
-	"bs-social-comment-event-own-delete-desc": "Комментарий к вашей записи удалён"
+	"bs-social-comment-event-own-delete-desc": "Комментарий к вашей записи удалён",
+	"bs-social-notification-comment-primary-link-label": "Посмотреть комментарий"
 }

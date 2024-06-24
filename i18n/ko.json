@@ -8,5 +8,6 @@
 	},
 	"bs-socialcomments-type": "의견",
 	"bs-socialcomments-header-create": "여기에 답변하십시오...",
-	"bs-socialcomments-var-commentcount": "댓글 숫자"
+	"bs-socialcomments-var-commentcount": "댓글 숫자",
+	"bs-social-notification-comment-primary-link-label": "댓글 보기"
 }

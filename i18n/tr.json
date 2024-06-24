@@ -10,5 +10,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Yorum|Yorumlar}} ($1)",
 	"bs-socialcomments-header-create": "Buraya cevapla...",
 	"bs-socialcomments-header": "[[User:$1|$2]], \"[[$6|$7]]\" yorumladı",
-	"bs-socialcomments-var-commentcount": "Yorum sayısı"
+	"bs-socialcomments-var-commentcount": "Yorum sayısı",
+	"bs-social-notification-comment-primary-link-label": "Yorumu görüntüle"
 }

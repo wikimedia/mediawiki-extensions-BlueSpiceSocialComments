@@ -9,5 +9,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Komentaras|Komentarai}} ($1)",
 	"bs-socialcomments-header-create": "Atsakykite čia...",
 	"bs-socialcomments-header": "[[User:$1|$2]] pakomentavo „[[$6|$7]]“",
-	"bs-socialcomments-var-commentcount": "Komentarų skaičius"
+	"bs-socialcomments-var-commentcount": "Komentarų skaičius",
+	"bs-social-notification-comment-primary-link-label": "Žiūrėti komentarą"
 }

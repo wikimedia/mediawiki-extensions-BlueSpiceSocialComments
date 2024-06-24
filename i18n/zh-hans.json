@@ -13,5 +13,6 @@
 	"bs-socialcomments-var-commentcount": "评论数",
 	"bs-social-comment-event-create-desc": "新评论",
 	"bs-social-comment-event-edit-desc": "评论已编辑",
-	"bs-social-comment-event-delete-desc": "评论已删除"
+	"bs-social-comment-event-delete-desc": "评论已删除",
+	"bs-social-notification-comment-primary-link-label": "显示内容"
 }

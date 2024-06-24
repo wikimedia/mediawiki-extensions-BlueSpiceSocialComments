@@ -21,5 +21,12 @@
 	"bs-social-comment-event-delete": "{{GENDER:$1|ha delite un commento}} sur un pagina que tu observa",
 	"bs-social-comment-event-delete-desc": "Commento delite",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|ha delite un commento}} sur tu articulo",
-	"bs-social-comment-event-own-delete-desc": "Commento sur tu articulo delite"
+	"bs-social-comment-event-own-delete-desc": "Commento sur tu articulo delite",
+	"bs-social-notification-comment-primary-link-label": "Vider commento",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|ha lassate un commento}} sur tu pagina de usator",
+	"bs-social-comment-for-user-event-create-desc": "Nove commento sur tu pagina de usator",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|ha modificate un commento}} sur tu pagina de usator",
+	"bs-social-comment-for-user-event-edit-desc": "Commento sur tu pagina de usator modificate",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|ha delite un commento}} sur tu pagina de usator",
+	"bs-social-comment-for-user-event-delete-desc": "Commento sur tu pagina de usator delite"
 }

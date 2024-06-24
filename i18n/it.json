@@ -10,5 +10,10 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Commento|Commenti}} ($1)",
 	"bs-socialcomments-header-create": "Rispondi qui...",
 	"bs-socialcomments-header": "[[User:$1|$2]] ha commentato \"[[$6|$7]]\"",
-	"bs-socialcomments-var-commentcount": "Conteggio commenti"
+	"bs-socialcomments-var-commentcount": "Conteggio commenti",
+	"bs-social-notification-comment-primary-link-label": "Visualizza commento",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|ha lasciato un commento}} nella tua pagina utente",
+	"bs-social-comment-for-user-event-create-desc": "Nuovo commento nella tua pagina utente",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|ha modificato un commento}} nella tua pagina utente",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|ha cancellato un commento}} nella tua pagina utente"
 }

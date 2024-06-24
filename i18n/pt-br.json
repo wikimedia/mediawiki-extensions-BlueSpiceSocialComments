@@ -11,5 +11,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentário|Comentários}} ($1)",
 	"bs-socialcomments-header-create": "Responda aqui...",
 	"bs-socialcomments-header": "[[User:$1|$2]] comentou \"[[$6|$7]]\"",
-	"bs-socialcomments-var-commentcount": "Contagem de comentários"
+	"bs-socialcomments-var-commentcount": "Contagem de comentários",
+	"bs-social-notification-comment-primary-link-label": "Ver comentário"
 }

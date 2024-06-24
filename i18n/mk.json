@@ -6,5 +6,6 @@
 	},
 	"bs-socialcomments-type": "Коментар",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Коментар|Коментари}} ($1)",
-	"bs-socialcomments-header-create": "Коментар"
+	"bs-socialcomments-header-create": "Коментар",
+	"bs-social-notification-comment-primary-link-label": "Прегледај коментар"
 }

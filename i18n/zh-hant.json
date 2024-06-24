@@ -10,5 +10,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|評論}}（$1）",
 	"bs-socialcomments-header-create": "在這裡回答...",
 	"bs-socialcomments-header": "[[User:$1|$2]]已評論「[[$6|$7]]」",
-	"bs-socialcomments-var-commentcount": "評論計數"
+	"bs-socialcomments-var-commentcount": "評論計數",
+	"bs-social-notification-comment-primary-link-label": "檢視評論"
 }

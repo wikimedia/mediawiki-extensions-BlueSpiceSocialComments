@@ -6,5 +6,6 @@
 	},
 	"bs-socialcomments-type": "Panampen",
 	"bs-socialcomments-header-create": "Pasaur iriki...",
-	"bs-socialcomments-var-commentcount": "Petékan penampen"
+	"bs-socialcomments-var-commentcount": "Petékan penampen",
+	"bs-social-notification-comment-primary-link-label": "Cingak penampen"
 }

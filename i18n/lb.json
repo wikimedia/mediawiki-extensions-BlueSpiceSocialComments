@@ -9,5 +9,6 @@
 	"bs-socialcomments-commenttext": "{{PLURAL:$1| Bemierkung|Bemierkungen}} ($1)",
 	"bs-socialcomments-header-create": "Hei äntweren...",
 	"bs-socialcomments-header": "[[User:$1|$2]] huet \"[[$6|$7]]\" kommentéiert",
-	"bs-socialcomments-var-commentcount": "Zuel vun de Bemierkungen"
+	"bs-socialcomments-var-commentcount": "Zuel vun de Bemierkungen",
+	"bs-social-notification-comment-primary-link-label": "Bemierkung weisen"
 }
