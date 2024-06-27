@@ -33,7 +33,14 @@ class SocialCommentForUserEvent extends SocialCommentEvent {
 	 */
 	public function getMessage( IChannel $forChannel ): Message {
 		return Message::newFromKey( "bs-social-comment-for-user-event-$this->action" )
-			->params( $this->getAgent()->getName() );
+			->params(
+				$this->getAgent()->getName(),
+				$this->getTitleAnchor(
+					$this->doGetRelevantTitle(),
+					$forChannel,
+					Message::newFromKey( 'bs-social-notification-user-page-generic' )->text()
+				)
+			);
 	}
 
 	/**
@@ -44,7 +51,7 @@ class SocialCommentForUserEvent extends SocialCommentEvent {
 		if ( $related && $related->getNamespace() === NS_USER ) {
 			return [ $this->userFactory->newFromName( $related->getBaseText() ) ];
 		}
-		return null;
+		return [];
 	}
 
 	/**

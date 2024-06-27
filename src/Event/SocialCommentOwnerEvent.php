@@ -20,7 +20,7 @@ class SocialCommentOwnerEvent extends SocialCommentEvent {
 	 */
 	public function getMessage( IChannel $forChannel ): Message {
 		return Message::newFromKey( "bs-social-comment-event-own-$this->action" )
-			->params( $this->getAgent()->getName() );
+			->params( $this->getAgent()->getName(), $this->getTitleAnchor( $this->doGetRelevantTitle(), $forChannel ) );
 	}
 
 	/**
