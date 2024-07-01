@@ -19,5 +19,6 @@
 	"bs-social-comment-event-edit-desc": "Kommentar bearbeitet",
 	"bs-social-comment-event-own-edit-desc": "Kommentar zu deinem Beitrag bearbeitet",
 	"bs-social-comment-event-delete-desc": "Kommentar gelöscht",
-	"bs-social-comment-event-own-delete-desc": "Kommentar zu deinem Beitrag gelöscht"
+	"bs-social-comment-event-own-delete-desc": "Kommentar zu deinem Beitrag gelöscht",
+	"bs-social-notification-comment-primary-link-label": "Kommentar anzeigen"
 }

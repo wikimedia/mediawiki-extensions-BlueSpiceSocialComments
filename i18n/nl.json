@@ -22,5 +22,6 @@
 	"bs-social-comment-event-delete": "{{GENDER:$1|heeft een reactie verwijderd}} op een pagina die u volgt",
 	"bs-social-comment-event-delete-desc": "Reactie verwijderd",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|heeft een reactie verwijderd}} op uw artikel",
-	"bs-social-comment-event-own-delete-desc": "Reactie op uw artikel verwijderd"
+	"bs-social-comment-event-own-delete-desc": "Reactie op uw artikel verwijderd",
+	"bs-social-notification-comment-primary-link-label": "Bekijk reactie"
 }

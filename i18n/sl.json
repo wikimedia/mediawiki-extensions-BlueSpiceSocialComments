@@ -23,5 +23,6 @@
 	"bs-social-comment-event-delete": "{{GENDER:$1|je izbrisal komentar|je izbrisala komentar|je izbrisal_a komentar}} na strani, ki jo opazujete",
 	"bs-social-comment-event-delete-desc": "Komentar izbrisan",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|je izbrisal komentar|je izbrisala komentar|je izbrisal_a komentar}} pri vaši objavi",
-	"bs-social-comment-event-own-delete-desc": "Izbris komentarja pri vaši objavi"
+	"bs-social-comment-event-own-delete-desc": "Izbris komentarja pri vaši objavi",
+	"bs-social-notification-comment-primary-link-label": "Ogled komentarja"
 }

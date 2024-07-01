@@ -18,5 +18,6 @@
 	"bs-social-comment-event-own-create-desc": "Nouvelle réponse à votre message",
 	"bs-social-comment-event-edit-desc": "Commentaire modifié",
 	"bs-social-comment-event-own-edit-desc": "Commentaire sur votre article modifié",
-	"bs-social-comment-event-delete-desc": "Commentaire supprimé"
+	"bs-social-comment-event-delete-desc": "Commentaire supprimé",
+	"bs-social-notification-comment-primary-link-label": "Afficher le commentaire"
 }
