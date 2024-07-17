@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Neriah"
 		]
 	},
 	"bs-socialcomments-desc": "פונקציונליות תגובות עבור BlueSpiceSocial",
@@ -39,16 +40,22 @@
 	"bs-social-notification-comment-parentowner-label": "יוצר הרשומה: $1",
 	"bs-social-notification-comment-parententity-label": "הצגת הרשומה",
 	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|משתמש $2 ערך|משתמשת $2 ערכה}} תגובה על רשומה שלך. התגובה החדשה היא:\n$3",
-	"bs-social-comment-event-create": "{{GENDER:$1|השאיר|השאירה}} תגובה בדף {{GENDER:|שאתה|שאת}} צופה בו",
+	"bs-social-comment-event-create": "{{GENDER:$1|השאיר|השאירה}} תגובה בדף $2",
 	"bs-social-comment-event-create-desc": "תגובה חדשה",
-	"bs-social-comment-event-own-create": "{{GENDER:$1|השאיר|השאירה}} תגובה ברשומה שלך",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|השאיר|השאירה}} תגובה ברשומה שלך בדף $2",
 	"bs-social-comment-event-own-create-desc": "תגובה חדשה לרשומה שלך",
-	"bs-social-comment-event-edit": "{{GENDER:$1|ערך|ערכה}} תגובה בדף {{GENDER:|שאתה|שאת}} צופה בו",
+	"bs-social-comment-event-edit": "{{GENDER:$1|ערך|ערכה}} תגובה בדף $2",
 	"bs-social-comment-event-edit-desc": "תגובה נערכה",
-	"bs-social-comment-event-own-edit": "{{GENDER:$1|ערך|ערכה}} תגובה ברשומה שלך",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|ערך|ערכה}} תגובה ברשומה שלך בדף $2",
 	"bs-social-comment-event-own-edit-desc": "תגובה על רשומה שלך ערכה",
-	"bs-social-comment-event-delete": "{{GENDER:$1|מחק|מחקה}} תגובה בדף {{GENDER:|שאתה|שאת}} צופה בו",
+	"bs-social-comment-event-delete": "{{GENDER:$1|מחק|מחקה}} תגובה בדף $2",
 	"bs-social-comment-event-delete-desc": "תגובה נמחקה",
-	"bs-social-comment-event-own-delete": "{{GENDER:$1|מחק|מחקה}} תגובה ברשומה שלך",
-	"bs-social-comment-event-own-delete-desc": "תגובה על רשומה שלך נמחקה"
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|מחק|מחקה}} תגובה ברשומה שלך בדף $2",
+	"bs-social-comment-event-own-delete-desc": "תגובה על רשומה שלך נמחקה",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|השאיר|השאירה}} תגובה בדף $2",
+	"bs-social-comment-for-user-event-create-desc": "תגובה חדשה בדף המשתמש שלך",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|ערך|ערכה}} תגובה בדף $2",
+	"bs-social-comment-for-user-event-edit-desc": "תגובה בדף המשתמש שלך נערכה",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|מחק|מחקה}} תגובה בדף $2",
+	"bs-social-comment-for-user-event-delete-desc": "תגובה בדף המשתמש שלך נמחקה"
 }

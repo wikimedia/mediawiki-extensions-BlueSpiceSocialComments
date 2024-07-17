@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Justman10000",
 			"Mglaser",
 			"Patric Wirth",
 			"TomatoCake",
@@ -43,5 +44,9 @@
 	"bs-social-notification-comment-parentowner-label": "Ersteller des Beitrags: $1",
 	"bs-social-notification-comment-parententity-label": "Beitrag ansehen",
 	"bs-social-comment-event-create-desc": "Neuer Kommentar",
-	"bs-social-comment-event-delete-desc": "Kommentar gelöscht"
+	"bs-social-comment-event-delete-desc": "Kommentar gelöscht",
+	"bs-social-comment-event-own-create-desc": "Neue Antwort auf deinen Beitrag",
+	"bs-social-comment-event-edit-desc": "Kommentar bearbeitet",
+	"bs-social-comment-event-own-edit-desc": "Kommentar zu deinem Beitrag bearbeitet",
+	"bs-social-comment-event-own-delete-desc": "Kommentar zu deinem Beitrag gelöscht"
 }

@@ -39,5 +39,17 @@
 	"bs-social-notifications-comment-owner-edit-bundle": "Reacties op uw bericht werden {{PLURAL:$1|$1}} keer bewerkt",
 	"bs-social-notification-comment-primary-link-label": "Bekijk reactie",
 	"bs-social-notification-comment-parentowner-label": "Plaatser van bericht: $1",
-	"bs-social-notification-comment-parententity-label": "Bericht bekijken"
+	"bs-social-notification-comment-parententity-label": "Bericht bekijken",
+	"bs-social-comment-event-create": "{{GENDER:$1|heeft een reactie achtergelaten}} op de pagina $2",
+	"bs-social-comment-event-create-desc": "Nieuwe reactie",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|heeft}} een reactie op uw artikel achtergelaten, op de pagina $2",
+	"bs-social-comment-event-own-create-desc": "Nieuwe reactie op uw artikel",
+	"bs-social-comment-event-edit": "{{GENDER:$1|heeft een reactie bewerkt}} op de pagina $2",
+	"bs-social-comment-event-edit-desc": "Reactie bewerkt",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|heeft}} een reactie op uw artikel bewerkt, op de pagina $2",
+	"bs-social-comment-event-own-edit-desc": "Reactie op uw artikel bewerkt",
+	"bs-social-comment-event-delete": "{{GENDER:$1|heeft een reactie verwijderd}} van de pagina $2",
+	"bs-social-comment-event-delete-desc": "Reactie verwijderd",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|heeft}} een reactie op uw artikel verwijderd van de pagina $2",
+	"bs-social-comment-event-own-delete-desc": "Reactie op uw artikel verwijderd"
 }
