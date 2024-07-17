@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Justman10000",
 			"Mglaser",
 			"Patric Wirth",
 			"TomatoCake",
-			"Umherirrender",
-			"Justman10000"
+			"Umherirrender"
 		]
 	},
 	"bs-socialcomments-desc": "Kommentarfunktion für BlueSpiceSocial",
