@@ -6,8 +6,9 @@ use MediaWiki\User\UserIdentity;
 use Message;
 use MWStake\MediaWiki\Component\Events\Delivery\IChannel;
 use MWStake\MediaWiki\Component\Events\EventLink;
+use MWStake\MediaWiki\Component\Events\PriorityEvent;
 
-class SocialCommentForUserEvent extends SocialCommentEvent {
+class SocialCommentForUserEvent extends SocialCommentEvent implements PriorityEvent {
 
 	/**
 	 * @inheritDoc

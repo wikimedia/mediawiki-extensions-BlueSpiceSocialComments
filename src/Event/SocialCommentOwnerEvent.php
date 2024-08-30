@@ -4,9 +4,10 @@ namespace BlueSpice\Social\Comments\Event;
 
 use Message;
 use MWStake\MediaWiki\Component\Events\Delivery\IChannel;
+use MWStake\MediaWiki\Component\Events\PriorityEvent;
 use User;
 
-class SocialCommentOwnerEvent extends SocialCommentEvent {
+class SocialCommentOwnerEvent extends SocialCommentEvent implements PriorityEvent {
 
 	/**
 	 * @return Message
