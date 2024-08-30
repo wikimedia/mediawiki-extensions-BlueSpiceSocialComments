@@ -28,7 +28,7 @@
 				"comment": "\\BlueSpice\\Social\\Comments\\EntityConfig\\Comment"
 			}
 		},
-		"Notifications": {
+		"NotifyMe": {
 			"Events": {
 				"bs-social-comment-event": {
 					"spec": {
