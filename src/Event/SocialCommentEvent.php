@@ -3,6 +3,7 @@
 namespace BlueSpice\Social\Comments\Event;
 
 use BlueSpice\EntityFactory;
+use BlueSpice\Social\Blog\Entity\Blog;
 use BlueSpice\Social\Entity;
 use BlueSpice\Social\Event\SocialTextEvent;
 use MediaWiki\Permissions\GroupPermissionsLookup;
@@ -82,6 +83,12 @@ class SocialCommentEvent extends SocialTextEvent {
 	 */
 	protected function getWatchedTitle() {
 		$parent = $this->entity->getParent();
+		if ( $parent instanceof Blog ) {
+			$titleFromTags = $this->getRelatedTitleFromTags( $parent );
+			if ( $titleFromTags instanceof Title ) {
+				return $titleFromTags;
+			}
+		}
 		return $parent->getRelatedTitle();
 	}
 
