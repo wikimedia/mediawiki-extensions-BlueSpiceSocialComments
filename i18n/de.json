@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Justman10000",
 			"Mglaser",
 			"Patric Wirth",
@@ -16,15 +17,15 @@
 	"bs-socialcomments-var-commentcount": "Anzahl Kommentare",
 	"bs-social-comment-event-create": "{{GENDER:$1|hat auf}} der Seite $2 {{GENDER:$1|einen Kommentar hinterlassen}}",
 	"bs-social-comment-event-create-desc": "Neuer Kommentar",
-	"bs-social-comment-event-own-create": "{{GENDER:$1|hat einen Kommentar}} auf deinem Beitrag auf der Seite $2 {{GENDER:$1|hinterlassen}}",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|hat einen Kommentar}} zu deinem Beitrag auf der Seite $2 {{GENDER:$1|hinterlassen}}",
 	"bs-social-comment-event-own-create-desc": "Neue Antwort auf deinen Beitrag",
 	"bs-social-comment-event-edit": "{{GENDER:$1|hat auf}} der Seite $2 {{GENDER:$1|einen Kommentar bearbeitet}}",
 	"bs-social-comment-event-edit-desc": "Kommentar bearbeitet",
-	"bs-social-comment-event-own-edit": "{{GENDER:$1|hat auf}} deinem Beitrag auf der Seite $2 {{GENDER:$1|einen Kommentar bearbeitet}}",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|hat einen Kommentar}} zu deinem Beitrag auf der Seite $2 {{GENDER:$1|bearbeitet}}",
 	"bs-social-comment-event-own-edit-desc": "Kommentar zu deinem Beitrag bearbeitet",
 	"bs-social-comment-event-delete": "{{GENDER:$1|hat}} auf der Seite $2 {{GENDER:$1|einen Kommentar gelöscht}}",
 	"bs-social-comment-event-delete-desc": "Kommentar gelöscht",
-	"bs-social-comment-event-own-delete": "{{GENDER:$1|hat}} auf deinem Beitrag auf der Seite $2 {{GENDER:$1|einen Kommentar gelöscht}}",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|hat einen Kommentar}} zu deinem Beitrag auf der Seite $2 {{GENDER:$1|gelöscht}}",
 	"bs-social-comment-event-own-delete-desc": "Kommentar zu deinem Beitrag gelöscht",
 	"bs-social-notification-comment-primary-link-label": "Kommentar anzeigen",
 	"bs-social-comment-for-user-event-create": "{{GENDER:$1|hat}} auf $2 {{GENDER:$1|einen Kommentar hinterlassen}}",
