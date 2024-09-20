@@ -35,6 +35,7 @@
 						"class": "\\BlueSpice\\Social\\Comments\\Event\\SocialCommentEvent",
 						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
 					},
+					"testable": false,
 					"buckets": [ "content-high-freq" ]
 				},
 				"bs-social-comment-own-event": {
@@ -42,6 +43,7 @@
 						"class": "\\BlueSpice\\Social\\Comments\\Event\\SocialCommentOwnerEvent",
 						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
 					},
+					"testable": false,
 					"buckets": [ "personal" ]
 				},
 				"bs-social-comment-for-user-event": {
@@ -49,6 +51,7 @@
 						"class": "\\BlueSpice\\Social\\Comments\\Event\\SocialCommentForUserEvent",
 						"services": [ "DBLoadBalancer", "UserFactory", "GroupPermissionsLookup", "BSEntityFactory", "SpecialPageFactory" ]
 					},
+					"testable": false,
 					"buckets": [ "personal" ]
 				}
 			}
