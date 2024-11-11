@@ -3,6 +3,7 @@
 		"authors": [
 			"Gomoko",
 			"Graineahumus",
+			"Mahabarata",
 			"SleaY",
 			"Thibaut120094",
 			"Verdy p"
@@ -46,6 +47,19 @@
 	"bs-social-comment-event-create-desc": "Nouveau commentaire",
 	"bs-social-comment-event-own-create-desc": "Nouvelle réponse à votre message",
 	"bs-social-comment-event-edit-desc": "Commentaire modifié",
-	"bs-social-comment-event-own-edit-desc": "Commentaire sur votre article modifié",
-	"bs-social-comment-event-delete-desc": "Commentaire supprimé"
+	"bs-social-comment-event-own-edit-desc": "Commentaire sur votre message modifié",
+	"bs-social-comment-event-delete-desc": "Commentaire supprimé",
+	"bs-social-comment-event-create": "{{GENDER:$1|}}a laissé un commentaire sur la page $2",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|}}a laissé un commentaire sur votre message sur la page $2",
+	"bs-social-comment-event-edit": "{{GENDER:$1|}}a modifié un commentaire sur la page $2",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|}}a modifié un commentaire sur votre message sur la page $2",
+	"bs-social-comment-event-delete": "{{GENDER:$1|}}a supprimé un commentaire sur la page $2",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|}}a supprimé un commentaire sur votre message sur la page $2",
+	"bs-social-comment-event-own-delete-desc": "Commentaire sur votre message supprimé",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|}}a laissé un commentaire sur $2",
+	"bs-social-comment-for-user-event-create-desc": "Nouveau commentaire sur votre page personnelle",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|}}a modifié un commentaire sur $2",
+	"bs-social-comment-for-user-event-edit-desc": "Commentaire sur votre page personnelle modifié",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|}}a supprimé un commentaire sur $2",
+	"bs-social-comment-for-user-event-delete-desc": "Commentaire sur votre page personnelle supprimé"
 }
