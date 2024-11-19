@@ -23,5 +23,11 @@
 	"bs-social-comment-event-delete-desc": "Reactie verwijderd",
 	"bs-social-comment-event-own-delete": "{{GENDER:$1|heeft}} een reactie op uw artikel verwijderd van de pagina $2",
 	"bs-social-comment-event-own-delete-desc": "Reactie op uw artikel verwijderd",
-	"bs-social-notification-comment-primary-link-label": "Bekijk reactie"
+	"bs-social-notification-comment-primary-link-label": "Bekijk reactie",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|heeft een reactie achtergelaten}} op $2",
+	"bs-social-comment-for-user-event-create-desc": "Nieuwe reactie op uw gebruikerspagina",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|heeft een reactie bewerkt}} op $2",
+	"bs-social-comment-for-user-event-edit-desc": "Reactie op uw gebruikerspagina bewerkt",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|heeft een reactie verwijderd}} op $2",
+	"bs-social-comment-for-user-event-delete-desc": "Reactie op uw gebruikerspagina verwijderd"
 }
