@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-social-comment-event-create-desc": "Novi komentar",
+	"bs-social-comment-event-edit-desc": "Komentar izmenjen",
+	"bs-social-comment-event-delete-desc": "Komentar obrisan",
+	"bs-social-comment-for-user-event-create-desc": "Novi komentar na vašoj korisničkoj stranici",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|izmenio je|izmenila je}} komentar na $2",
+	"bs-social-comment-for-user-event-edit-desc": "Komentar na vašoj korisničkoj stranici je izmenjen",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|obrisao je|obrisala je}} komentar na $2",
+	"bs-social-comment-for-user-event-delete-desc": "Komentar na vašoj korisničkoj stranici je obrisan"
+}
