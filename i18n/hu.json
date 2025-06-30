@@ -1,8 +1,33 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eukarióta"
+			"Eukarióta",
+			"Krisztina"
 		]
 	},
-	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|$2 írt}} egy megjegyzést a bejegyzésekhez. Az általa beírt megjegyzés: „$3”"
+	"bs-socialcomments-desc": "Hozzászólásfunkció a BlueSpiceSocialhoz",
+	"bs-socialcomments-type": "Hozzászólás",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Hozzászólás|Hozzászólások}} ($1)",
+	"bs-socialcomments-header-create": "Hozzászólás helye...",
+	"bs-socialcomments-header": "[[Felhasználó:$1|$2]] hozzászólt ehhez \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Hozzászólások száma",
+	"bs-social-comment-event-create": "{{GENDER:$1| hozzászólt}} ehhez: $2",
+	"bs-social-comment-event-create-desc": "Új hozzászólás",
+	"bs-social-comment-event-own-create": "{{GENDER:$1| hozzászólt}} a bejegyzésedhez, a $2 lapon",
+	"bs-social-comment-event-own-create-desc": "Új válasz a bejegyzésedre",
+	"bs-social-comment-event-edit": "{{GENDER:$1| szerkesztett egy hozzászólást}} a $2 lapon",
+	"bs-social-comment-event-edit-desc": "Hozzászólás szerkesztve",
+	"bs-social-comment-event-own-edit": "a $2 lapon {{GENDER:$1| szerkesztett egy hozzászólást}} a bejegyzésedhez",
+	"bs-social-comment-event-own-edit-desc": "A bejegyzésedhez fűzött hozzászólás szerkesztve lett",
+	"bs-social-comment-event-delete": "a $2 lapon {{GENDER:$1| törölt egy hozzászólást}}",
+	"bs-social-comment-event-delete-desc": "Hozzászólás törölve",
+	"bs-social-comment-event-own-delete": "a $2 lapon {{GENDER:$1| törölt egy bejegyzésedhez fűzött hozzászólást}}",
+	"bs-social-comment-event-own-delete-desc": "A bejegyzésedhez fűzött hozzászólás törölve lett",
+	"bs-social-notification-comment-primary-link-label": "Hozzászólás megtekintése",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1| hozzászólt}} ehhez: $2",
+	"bs-social-comment-for-user-event-create-desc": "Új hozzászólás a felhasználói lapodon",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1| szerkesztett egy hozzászólást}} itt: $2",
+	"bs-social-comment-for-user-event-edit-desc": "Hozzászólás szerkesztve a felhasználói lapodon",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1| törölt egy hozzászólást}} erről: $2",
+	"bs-social-comment-for-user-event-delete-desc": "Hozzászólás törölve a felhasználói lapodon"
 }
