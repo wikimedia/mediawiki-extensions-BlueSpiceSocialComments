@@ -8,5 +8,10 @@
 	"bs-socialcomments-type": "Коммент",
 	"bs-socialcomments-commenttext": "{{PLURAL:$1|Коммент}} ($1)",
 	"bs-socialcomments-header-create": "Жоп ло кхузахь…",
-	"bs-socialcomments-header": "[[User:$1|$2]] коммент йазйина «[[$6|$7]]»"
+	"bs-socialcomments-header": "[[User:$1|$2]] коммент йазйина «[[$6|$7]]»",
+	"bs-socialcomments-var-commentcount": "Комментарийн дукхалла",
+	"bs-social-comment-event-create-desc": "Керла коммент",
+	"bs-social-comment-event-edit-desc": "Коммент хийцина",
+	"bs-social-comment-event-delete-desc": "Коммент дӀайаьккхина",
+	"bs-social-notification-comment-primary-link-label": "Хьажа коммент"
 }
