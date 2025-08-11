@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"bs-socialcomments-desc": "Funcionalidade de comentarios para BlueSpiceSocial",
+	"bs-socialcomments-type": "Comentario",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentario|Comentarios}} ($1)",
+	"bs-socialcomments-header-create": "Responde aquí...",
+	"bs-socialcomments-header": "[[User:$1|$2]] comentou en «[[$6|$7]]»",
+	"bs-socialcomments-var-commentcount": "Número de comentarios",
+	"bs-social-comment-event-create": "{{GENDER:$1|deixou un comentario}} na páxina «$2»",
+	"bs-social-comment-event-create-desc": "Comentario novo",
+	"bs-social-comment-event-own-create": "{{GENDER:$1|deixou un comentario}} na túa publicación, na páxina «$2»",
+	"bs-social-comment-event-own-create-desc": "Resposta nova á túa publicación",
+	"bs-social-comment-event-edit": "{{GENDER:$1|editou un comentario}} na páxina «$2»",
+	"bs-social-comment-event-edit-desc": "Comentario editado",
+	"bs-social-comment-event-own-edit": "{{GENDER:$1|editou un comentario}} na túa publicación, na páxina «$2»",
+	"bs-social-comment-event-own-edit-desc": "Comentario na túa publicación editado",
+	"bs-social-comment-event-delete": "{{GENDER:$1|eliminou un comentario}} na páxina «$2»",
+	"bs-social-comment-event-delete-desc": "Comentario eliminado",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1|eliminou un comentario}} na túa publicación, na páxina «$2»",
+	"bs-social-comment-event-own-delete-desc": "Comentario na túa publicación eliminado",
+	"bs-social-notification-comment-primary-link-label": "Amosar o comentario",
+	"bs-social-comment-for-user-event-create": "{{GENDER:$1|deixou un comentario}} en «$2»",
+	"bs-social-comment-for-user-event-create-desc": "Comentario novo na túa páxina de usuario",
+	"bs-social-comment-for-user-event-edit": "{{GENDER:$1|editou un comentario}} en «$2»",
+	"bs-social-comment-for-user-event-edit-desc": "Comentario na túa páxina de usuario editado",
+	"bs-social-comment-for-user-event-delete": "{{GENDER:$1|eliminou un comentario}} en «$2»",
+	"bs-social-comment-for-user-event-delete-desc": "Comentario na túa páxina de usuario eliminado"
+}
