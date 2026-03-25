@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-social-comment-event-own-create-desc": "Új válasz a bejegyzésére",
+	"bs-social-comment-event-own-edit": "a $2 lapon {{GENDER:$1| szerkesztett egy hozzászólást}} a bejegyzéséhez",
+	"bs-social-comment-event-own-edit-desc": "A bejegyzéséhez fűzött hozzászólás szerkesztve lett",
+	"bs-social-comment-event-own-delete": "{{GENDER:$1| hozzászólt}} a bejegyzéséhez, a $2 lapon",
+	"bs-social-comment-for-user-event-create-desc": "Új hozzászólás a felhasználói lapján",
+	"bs-social-comment-for-user-event-edit-desc": "Hozzászólás szerkesztve a felhasználói lapján"
+}
