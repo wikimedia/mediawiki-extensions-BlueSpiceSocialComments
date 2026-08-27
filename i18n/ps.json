@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"bs-socialcomments-desc": "BlueSpiceSocial لپاره د څرگندونې کړنچارولي",
+	"bs-socialcomments-type": "څرگندونه",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|څرگندونه|څرگندونې}} ($1)",
+	"bs-socialcomments-header-create": "دلته ځواب ورکړئ...",
+	"bs-socialcomments-header": "[[User:$1|$2]] په \"[[$6|$7]]\" کې څرگندونه وکړه",
+	"bs-socialcomments-var-commentcount": "د څرگندونو شمېر",
+	"bs-social-comment-event-create": "په $2 مخ {{GENDER:$1|يوه څرگندونه وکړه}}",
+	"bs-social-comment-event-create-desc": "نوې څرگندونه"
+}
